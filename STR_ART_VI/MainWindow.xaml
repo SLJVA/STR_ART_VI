@@ -1,0 +1,43 @@
+﻿<Window x:Class="STR_ART_VI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:STR_ART_VI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Button x:Name="Wbtn1" Click="Wbtn1_Click" >PAGE1</Button>
+
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Button x:Name="Wbtn2" Click="Wbtn2_Click" Content="PAGE2"/>
+
+        </StackPanel>
+
+        
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <Button x:Name="Wbtn3" Click="Wbtn3_Click" Content="PAGE3"/>
+
+        </StackPanel>
+
+
+
+        <StackPanel  x:Name="MenuPanel" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            
+
+        </StackPanel>
+    </Grid>
+</Window>
