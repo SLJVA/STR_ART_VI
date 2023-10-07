@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace STR_ART_VI
+namespace STR_ART_VI.View
 {
     /// <summary>
-    /// Interaction logic for Page1UserControl1.xaml
+    /// Interaction logic for Page2UserControl1.xaml
     /// </summary>
-    public partial class Page1UserControl1 : UserControl
+    public partial class Page2UserControl1 : UserControl
     {
-        public Page1UserControl1()
+        public Page2UserControl1()
         {
             InitializeComponent();
         }
-
     }
 }

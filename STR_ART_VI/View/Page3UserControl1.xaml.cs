@@ -6,7 +6,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Collections.Generic;
 
-namespace STR_ART_VI
+namespace STR_ART_VI.View
 {
 
     public partial class Page3UserControl1 : UserControl
