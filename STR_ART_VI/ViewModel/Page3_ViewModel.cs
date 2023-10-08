@@ -19,8 +19,9 @@ namespace STR_ART_VI
         public Page3_ViewModel()
         {
             LoadImageCommand = new RelayCommand(LoadImage, CanLoadImage);
-            
         }
+
+
 
         public IRelayCommand LoadImageCommand { get; }
 

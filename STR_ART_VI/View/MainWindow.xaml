@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:view="clr-namespace:STR_ART_VI.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        FontFamily="Popins" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="Auto" Width="Auto"
+        FontFamily="Popins" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" WindowState="Maximized">
 
     <Window.Resources>
         <!-- Colors -->
@@ -59,32 +59,46 @@
                 </Setter.Value>
             </Setter>
         </Style>    
-        <!-- Tab Control Style-->
-
-
-
-
-
-    </Window.Resources>
-
-    <Grid Background="{DynamicResource SecondaryBlueColor}">
-        <Border CornerRadius="0"
-                Background="{DynamicResource PrimaryTextColor}"
-                Padding="30"                
-                VerticalAlignment="Center"
-                HorizontalAlignment="Center"></Border>
-
-            <TabControl Padding="-1">
-            <TabItem Header="Algorytm" Style="{DynamicResource TabItemStyle}">
-                <view:Page1UserControl1/>
-            </TabItem>
-            <TabItem Header="G-Code Generator" Style="{DynamicResource TabItemStyle}">
-                <view:Page2UserControl1/>
-            </TabItem>
-            <TabItem Header="Robot" Style="{DynamicResource TabItemStyle}">
-                <view:Page3UserControl1/>
-            </TabItem>
-        </TabControl>
         
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="{DynamicResource SecondaryBlueColor}">
+            <Button HorizontalAlignment="Right" Content="X"
+                    Background="RED"
+                    Foreground="White"
+                    Command="{Binding CloseWindowCommand}"
+                    Padding="5, 2"
+                    Margin="10, 0"
+                    
+                    />
+
+        </Grid>
+        <Grid Grid.Row ="1" Background="{DynamicResource SecondaryBlueColor}">
+            <Border CornerRadius="0"
+                    Background="{DynamicResource PrimaryTextColor}"
+                    Padding="30"                
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"></Border>
+        
+                <TabControl Padding="-1">
+                <TabItem Header="Algorytm" Style="{DynamicResource TabItemStyle}">
+                    <view:Page1UserControl1/>
+                </TabItem>
+                <TabItem Header="G-Code Generator" Style="{DynamicResource TabItemStyle}">
+                    <view:Page2UserControl1/>
+                </TabItem>
+                <TabItem Header="Robot" Style="{DynamicResource TabItemStyle}">
+                    <view:Page3UserControl1/>
+                </TabItem>
+            
+            </TabControl>
+        </Grid>
     </Grid>
 </Window>

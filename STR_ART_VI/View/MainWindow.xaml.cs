@@ -8,7 +8,8 @@ namespace STR_ART_VI.View
         public MainWindow()
         {
             InitializeComponent();
-
+            var viewModel = new MainWindowViewModel();
+            this.DataContext = viewModel;
         }
     }
 }
