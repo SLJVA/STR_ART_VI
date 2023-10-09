@@ -5,9 +5,9 @@ namespace STR_ART_VI.View
     /// <summary>
     /// Interaction logic for Page1UserControl1.xaml
     /// </summary>
-    public partial class Page1UserControl1 : UserControl
+    public partial class Page2_GCode : UserControl
     {
-        public Page1UserControl1()
+        public Page2_GCode()
         {
             InitializeComponent();
         }

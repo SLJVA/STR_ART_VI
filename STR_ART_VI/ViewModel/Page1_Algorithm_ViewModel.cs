@@ -12,11 +12,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace STR_ART_VI
+namespace STR_ART_VI.ViewModel
 {
-    public partial class Page3_ViewModel : ObservableObject
+    public partial class Page1_Algorithm_ViewModel : ObservableObject
     {
-        public Page3_ViewModel()
+        public Page1_Algorithm_ViewModel()
         {
             LoadImageCommand = new RelayCommand(LoadImage, CanLoadImage);
         }

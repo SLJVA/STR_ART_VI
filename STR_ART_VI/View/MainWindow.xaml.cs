@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using STR_ART_VI.ViewModel;
 
 namespace STR_ART_VI.View
 {

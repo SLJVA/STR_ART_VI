@@ -12,7 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace STR_ART_VI
+namespace STR_ART_VI.ViewModel
 {
     public partial class MainWindowViewModel : ObservableObject
     {

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace STR_ART_VI.View
 {
     /// <summary>
-    /// Interaction logic for Page2UserControl1.xaml
+    /// Interaction logic for Page0_Start.xaml
     /// </summary>
-    public partial class Page2UserControl1 : UserControl
+    public partial class Page0_Start : UserControl
     {
-        public Page2UserControl1()
+        public Page0_Start()
         {
             InitializeComponent();
         }

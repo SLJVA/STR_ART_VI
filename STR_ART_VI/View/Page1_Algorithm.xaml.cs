@@ -5,17 +5,18 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Collections.Generic;
+using STR_ART_VI.ViewModel;
 
 namespace STR_ART_VI.View
 {
 
-    public partial class Page3UserControl1 : UserControl
+    public partial class Page1_Algorithm : UserControl
     {
         
-        public Page3UserControl1()
+        public Page1_Algorithm()
         {
             InitializeComponent();
-            var viewModel = new Page3_ViewModel();
+            var viewModel = new Page1_Algorithm_ViewModel();
             this.DataContext = viewModel;
         }
 
