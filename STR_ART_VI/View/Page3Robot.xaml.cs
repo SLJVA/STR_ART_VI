@@ -19,15 +19,15 @@ using System.Threading;
 
 namespace STR_ART_VI.View
 {
-    public partial class Page3_Robot : UserControl
+    public partial class Page3Robot : UserControl
     {
-        private Page3_Robot_ViewModel _viewModel;
+        private Page3RobotViewModel _viewModel;
         private ClientWebSocket _clientWebSocket;
 
-        public Page3_Robot()
+        public Page3Robot()
         {
             InitializeComponent();
-            _viewModel = new Page3_Robot_ViewModel();
+            _viewModel = new Page3RobotViewModel();
             this.DataContext = _viewModel;
             _clientWebSocket = new ClientWebSocket();
         }

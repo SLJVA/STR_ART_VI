@@ -12,17 +12,20 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using STR_ART_VI.ViewModel;
 
 namespace STR_ART_VI.View
 {
     /// <summary>
-    /// Interaction logic for Page0_Start.xaml
+    /// Interaction logic for Page3v2Robot.xaml
     /// </summary>
-    public partial class Page0_Start : UserControl
+    public partial class Page3v2Robot : UserControl
     {
-        public Page0_Start()
+        public Page3v2Robot()
         {
             InitializeComponent();
+            var viewModel = new Page3v2RobotViewModel();
+            DataContext = viewModel;
         }
     }
 }

@@ -14,9 +14,9 @@ using System.Windows.Media.Imaging;
 
 namespace STR_ART_VI.ViewModel
 {
-    public partial class Page1_Algorithm_ViewModel : ObservableObject
+    public partial class Page1AlgorithmViewModel : ObservableObject
     {
-        public Page1_Algorithm_ViewModel()
+        public Page1AlgorithmViewModel()
         {
             LoadImageCommand = new RelayCommand(LoadImage, CanLoadImage);
         }

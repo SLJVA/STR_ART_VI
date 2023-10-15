@@ -1,0 +1,213 @@
+﻿<UserControl x:Class="STR_ART_VI.View.AutoMode"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:STR_ART_VI.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="850" d:DesignWidth="1920">
+    
+    <Grid Background="#222222">
+        <Grid Margin="500 100">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition />
+                <RowDefinition Height="50"/>
+                <RowDefinition />
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.ColumnSpan="2" Background="#333232">
+            </Grid>
+            <Button Grid.Column="0" Grid.Row="0" 
+                        Content="Load File"
+                        FontSize="18"
+                        Height="30"
+                        Width="200"
+                        Padding="2"
+                        Command="{Binding LoadFileAutoModeCommand}" />
+            <ComboBox Grid.Row="0" Grid.Column="1" Height="30" Width="300">
+                <ComboBoxItem>item1</ComboBoxItem>
+            </ComboBox>
+            <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                
+                <Label Content="File information:"
+                        Grid.Row="0"
+                        Grid.ColumnSpan="2"
+                        FontSize="22"
+                        Margin="10 0 0 0"
+                        Padding="2"
+                        Foreground="white"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"/>
+                <Label Content="Robot's endefector mode:"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding EndEffModeMessage}" 
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+                <Label Content="Number of threaded connections:"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding NrThreadConnsMessage}" 
+                           Grid.Row="2"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+                <Label Content="Number of nails:"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding NailCountMessage}" 
+                           Grid.Row="3"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.ColumnSpan="2" Height="50" Background="#333232">
+                <Button Grid.Column="0" Grid.Row="0" 
+                        Content="Start process"
+                        FontSize="18"
+                        Height="30"
+                        Width="200"
+                        Padding="2"
+                        Command="{Binding StartProcessModeCommand}" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label Content="Process information:"
+                        Grid.Row="0"
+                        Grid.ColumnSpan="2"
+                        FontSize="22"
+                        Margin="10 0 0 0"
+                        Padding="2"
+                        Foreground="white"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"/>
+                <Label Content="Current Speed:"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding CurrSpeedMessage}" 
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+                <Label Content="Current number of thread connection:"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding CurrThreadConnNumMessage}" 
+                           Grid.Row="2"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+                <Label Content="Current position:"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding CurrPosMessage}" 
+                           Grid.Row="3"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+                <Label Content="Estimated time:"
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        FontSize="18"
+                        Padding="2"
+                        Foreground="white"
+                        Margin="100 0 0 0"
+                        VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding EstimTimeMessage}" 
+                           Grid.Row="4"
+                           Grid.Column="1"
+                           FontSize="18"
+                           Foreground="LightGray"
+                           HorizontalAlignment="Center"
+                           Margin="0,10,0,0" />
+            </Grid>
+            <Grid Grid.Row="4" Grid.ColumnSpan="2" Height="50" Background="#333232">
+
+            </Grid>
+            <Button Grid.Column="0" Grid.Row="4" 
+                        Content="Stop process"
+                        FontSize="18"
+                        Height="30"
+                        Width="200"
+                        Padding="2"
+                        Command="{Binding StopProcessCommand}" />
+            <Button Grid.Column="1" Grid.Row="4" 
+                        Content="Pause process"
+                        FontSize="18"
+                        Height="30"
+                        Width="200"
+                        Padding="2"
+                        Command="{Binding PauseProcessCommand}" />
+        </Grid>          
+    </Grid>
+</UserControl>

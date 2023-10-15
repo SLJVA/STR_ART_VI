@@ -109,16 +109,19 @@
             </Border>
             <TabControl Padding="-1">
                 <TabItem Header="Strona główna" Style="{DynamicResource TabItemStyle}">
-                    <view:Page0_Start/>
+                    <view:Page0Start/>
                 </TabItem>
                 <TabItem Header="Algorytm" Style="{DynamicResource TabItemStyle}">
-                    <view:Page1_Algorithm/>
+                    <view:Page1Algorithm/>
                 </TabItem>
                 <TabItem Header="G-Code Generator" Style="{DynamicResource TabItemStyle}">
-                    <view:Page2_GCode/>
+                    <view:Page2GCode/>
                 </TabItem>
                 <TabItem Header="Robot" Style="{DynamicResource TabItemStyle}">
-                    <view:Page3_Robot/>
+                    <view:Page3Robot/>
+                </TabItem>
+                <TabItem Header="Robot v2" Style="{DynamicResource TabItemStyle}">
+                    <view:Page3v2Robot/>
                 </TabItem>
             </TabControl>
         </Grid>

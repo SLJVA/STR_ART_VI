@@ -10,14 +10,14 @@ using STR_ART_VI.ViewModel;
 namespace STR_ART_VI.View
 {
 
-    public partial class Page1_Algorithm : UserControl
+    public partial class Page1Algorithm : UserControl
     {
         
-        public Page1_Algorithm()
+        public Page1Algorithm()
         {
             InitializeComponent();
-            var viewModel = new Page1_Algorithm_ViewModel();
-            this.DataContext = viewModel;
+            var viewModel = new Page1AlgorithmViewModel();
+            DataContext = viewModel;
         }
 
     }

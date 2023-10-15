@@ -18,7 +18,7 @@ using System.ComponentModel;
 
 namespace STR_ART_VI.ViewModel
 {
-    public partial class Page3_Robot_ViewModel : INotifyPropertyChanged
+    public partial class Page3RobotViewModel : INotifyPropertyChanged
     {
         private ClientWebSocket _clientWebSocket;
         private string _receivedMessage;
@@ -28,7 +28,7 @@ namespace STR_ART_VI.ViewModel
 
 
 
-        public Page3_Robot_ViewModel()
+        public Page3RobotViewModel()
         {
 
             _clientWebSocket = new ClientWebSocket();
