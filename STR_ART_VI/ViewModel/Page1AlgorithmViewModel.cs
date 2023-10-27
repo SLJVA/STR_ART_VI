@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
+
 namespace STR_ART_VI.ViewModel
 {
     public partial class Page1AlgorithmViewModel : ObservableObject
@@ -19,11 +20,15 @@ namespace STR_ART_VI.ViewModel
         public Page1AlgorithmViewModel()
         {
             LoadImageCommand = new RelayCommand(LoadImage, CanLoadImage);
+            SaveImageCommand = new RelayCommand(SaveImage, CanSaveImage);
+            GenerateWhiteImageCommand = new RelayCommand(GenWhiteImage, CanGenWhiteImage);
         }
 
 
 
         public IRelayCommand LoadImageCommand { get; }
+        public IRelayCommand SaveImageCommand { get; }
+        public IRelayCommand GenerateWhiteImageCommand { get; }
 
         [ObservableProperty]
         private string _redPixelCount = string.Empty;
@@ -34,10 +39,25 @@ namespace STR_ART_VI.ViewModel
         [ObservableProperty]
         public string _imagePath;
 
+        [ObservableProperty]
+        private ImageSource? _whiteGen;
+
 
         partial void OnRedPixelCountChanged(string value)
         {
             LoadImageCommand.NotifyCanExecuteChanged();
+        }
+
+        //to sie wywoluje gdy wlasciwosc ProccessedImage zmienia wartosc, sprawdza to czy komenda sie moze wykonac, metoda => (CanSaveImage)
+        partial void OnProcessedImageChanged(ImageSource? value)
+        {
+            SaveImageCommand.NotifyCanExecuteChanged();
+        }
+
+        //to sie wywoluje gdy wlasciwosc ImagePath zmienia wartosc, sprawdza to czy komenda sie moze wykonac, metoda => (CanSaveImage)
+        partial void OnImagePathChanged(string value)
+        {
+            SaveImageCommand.NotifyCanExecuteChanged();
         }
 
 
@@ -94,6 +114,43 @@ namespace STR_ART_VI.ViewModel
 
             return true;
         }
+
+        private void SaveImage()
+        {
+            //sprawdzam warunek jeszcze raz, zeby nie bylo warningow
+            if (string.IsNullOrEmpty(ImagePath) || ProcessedImage is null)
+            {
+                return;
+            }
+
+            //Zapisanie obrazu do pliku
+            SystemUtilities.SaveImage(ImagePath, (BitmapSource)ProcessedImage);
+        }
+
+        //logika sprawdzania, czy mozna zapisac zdjecie
+        private bool CanSaveImage()
+        {
+            // jezeli sciezka nie istnieje lub zdjecie nie istnieje, to przycisk zapisu bedzie nieaktywny
+            if (string.IsNullOrEmpty(ImagePath) || ProcessedImage is null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        private void GenWhiteImage()
+        {
+            WhiteGen = ImageUtilities.GenerateWhiteImage(600, 600, ImagePath);
+        }
+
+        private bool CanGenWhiteImage()
+        {
+            return true;
+        
+        }
+
+
     }
 
 }

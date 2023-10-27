@@ -51,8 +51,8 @@ namespace STR_ART_VI.Model
             int height = image.PixelHeight;
 
             var directoryName = Path.GetDirectoryName(ImagePath);
-            string newImagePath = Path.Combine(directoryName, "red_pixels.txt" );
-            
+            string newImagePath = Path.Combine(directoryName, "red_pixels.txt");
+
 
             // Pobierz współrzędne białych pikseli
             List<(int x, int y)> whitePixelCoordinates = GetWhitePixelCoordinates(image);
@@ -95,7 +95,7 @@ namespace STR_ART_VI.Model
                     (int x, int y) = whitePixelCoordinates[index];
 
                     // Nanieś czerwony piksel
-                    drawingContext.DrawRectangle(Brushes.Red, null, new Rect(x, y, 1, 1));
+                    drawingContext.DrawRectangle(System.Windows.Media.Brushes.Red, null, new Rect(x, y, 1, 1));
 
                     // Dodaj pozycję czerwonego piksela do listy
                     redPixelCoordinates.Add((x, y));
@@ -153,5 +153,37 @@ namespace STR_ART_VI.Model
                 }
             }
         }
+
+
+        public static WriteableBitmap GenerateWhiteImage(int width, int height, string ImagePath)
+        {
+            // Tworzenie nowego obrazu o określonych rozmiarach
+            var whiteBitmap = new WriteableBitmap(width, height, 96, 96, PixelFormats.Bgra32, null);
+
+            // Wypełnienie obrazu kolorem białym
+            byte[] whitePixels = new byte[4 * width * height];
+            for (int i = 0; i < whitePixels.Length; i += 4)
+            {
+                whitePixels[i] = 255; // Składowa niebieska
+                whitePixels[i + 1] = 255; // Składowa zielona
+                whitePixels[i + 2] = 255; // Składowa czerwona
+                whitePixels[i + 3] = 255; // Składowa alfa
+            }
+
+            whiteBitmap.WritePixels(new Int32Rect(0, 0, width, height), whitePixels, width * 4, 0);
+
+            // Zapis obrazu do pliku
+            using (var fileStream = new System.IO.FileStream("bialy_obraz.png", System.IO.FileMode.Create))
+            {
+                var encoder = new PngBitmapEncoder();
+                encoder.Frames.Add(BitmapFrame.Create(whiteBitmap));
+                encoder.Save(fileStream);
+            }
+            return whiteBitmap;
+
+        }
+
+
+
     }
 }
