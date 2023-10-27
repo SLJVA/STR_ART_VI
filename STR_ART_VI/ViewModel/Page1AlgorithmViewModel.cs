@@ -22,6 +22,7 @@ namespace STR_ART_VI.ViewModel
             LoadImageCommand = new RelayCommand(LoadImage, CanLoadImage);
             SaveImageCommand = new RelayCommand(SaveImage, CanSaveImage);
             GenerateWhiteImageCommand = new RelayCommand(GenWhiteImage, CanGenWhiteImage);
+            GenerateStringArtCommand = new RelayCommand(GenStrArt, CanGenStrArt);
         }
 
 
@@ -29,6 +30,10 @@ namespace STR_ART_VI.ViewModel
         public IRelayCommand LoadImageCommand { get; }
         public IRelayCommand SaveImageCommand { get; }
         public IRelayCommand GenerateWhiteImageCommand { get; }
+        public IRelayCommand GenerateStringArtCommand { get; }
+
+        [ObservableProperty]
+        private string _newImageSize = string.Empty;
 
         [ObservableProperty]
         private string _redPixelCount = string.Empty;
@@ -42,6 +47,10 @@ namespace STR_ART_VI.ViewModel
         [ObservableProperty]
         private ImageSource? _whiteGen;
 
+        partial void OnNewImageSizeChanged(string value)
+        {
+            GenerateStringArtCommand.NotifyCanExecuteChanged();
+        }
 
         partial void OnRedPixelCountChanged(string value)
         {
@@ -141,7 +150,9 @@ namespace STR_ART_VI.ViewModel
 
         private void GenWhiteImage()
         {
-            WhiteGen = ImageUtilities.GenerateWhiteImage(600, 600, ImagePath);
+            WriteableBitmap img = ImageUtilities.GenerateWhiteImage(600, 600);
+            
+            ImageUtilities.SaveImageToFile(img);
         }
 
         private bool CanGenWhiteImage()
@@ -149,6 +160,47 @@ namespace STR_ART_VI.ViewModel
             return true;
         
         }
+
+        private void GenStrArt()
+        {
+            //Wczytanie ścieżki pliku z obrazem
+            ImagePath = FileDialogUtilities.OpenImageFile();
+
+            if (ImagePath is null)
+            {
+                return;
+            }
+
+            //Stworzenie bitmapy na podstawie wczytanej ścieżki pliku
+            var bitmap = ImageUtilities.CreateBitmap(ImagePath);
+            
+
+            bitmap = ImageUtilities.CropImageToSquare(bitmap);
+
+            int? newImageSize = SystemUtilities.ParseStringToInt(NewImageSize);
+
+            if (newImageSize is null)
+            {
+                return;
+            }
+
+            bitmap = ImageUtilities.ResizeImage(bitmap, newImageSize.Value, newImageSize.Value);
+
+
+            WhiteGen = bitmap;
+
+            WriteableBitmap writeableBitmap = new WriteableBitmap(bitmap);
+            ImageUtilities.SaveImageToFile(writeableBitmap);
+
+        }
+
+        private bool CanGenStrArt()
+        {
+            return true;
+
+        }
+
+
 
 
     }

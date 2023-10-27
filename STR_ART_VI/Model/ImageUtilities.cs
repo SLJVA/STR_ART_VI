@@ -19,17 +19,29 @@ namespace STR_ART_VI.Model
             return bitmap;
         }
 
-        public static BitmapSource ResizeImage(BitmapImage sourceImage, int newWidth, int newHeight)
+        public static BitmapImage ResizeImage(BitmapImage sourceImage, int newWidth, int newHeight)
         {
+            // Konwersja BitmapImage na Bitmap
+            BitmapImage bitmapImage = sourceImage;
+            BitmapEncoder encoder = new JpegBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(bitmapImage));
+
             // Utworzenie nowego obrazu o podanych rozmiarach
             BitmapImage resizedImage = new BitmapImage();
             resizedImage.BeginInit();
             resizedImage.DecodePixelWidth = newWidth;
             resizedImage.DecodePixelHeight = newHeight;
             resizedImage.CacheOption = BitmapCacheOption.OnLoad;
-            resizedImage.UriSource = sourceImage.UriSource;
-            resizedImage.EndInit();
-            resizedImage.Freeze(); // Zamrożenie obrazu, aby można go było używać na wątku interfejsu użytkownika
+
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                encoder.Save(memoryStream);
+                memoryStream.Seek(0, SeekOrigin.Begin);
+
+                resizedImage.StreamSource = memoryStream;
+                resizedImage.EndInit();
+                resizedImage.Freeze(); // Zamrożenie obrazu, aby można go było używać na wątku interfejsu użytkownika
+            }
 
             return resizedImage;
         }
@@ -155,7 +167,7 @@ namespace STR_ART_VI.Model
         }
 
 
-        public static WriteableBitmap GenerateWhiteImage(int width, int height, string ImagePath)
+        public static WriteableBitmap GenerateWhiteImage(int width, int height)
         {
             // Tworzenie nowego obrazu o określonych rozmiarach
             var whiteBitmap = new WriteableBitmap(width, height, 96, 96, PixelFormats.Bgra32, null);
@@ -171,17 +183,69 @@ namespace STR_ART_VI.Model
             }
 
             whiteBitmap.WritePixels(new Int32Rect(0, 0, width, height), whitePixels, width * 4, 0);
-
-            // Zapis obrazu do pliku
-            using (var fileStream = new System.IO.FileStream("bialy_obraz.png", System.IO.FileMode.Create))
-            {
-                var encoder = new PngBitmapEncoder();
-                encoder.Frames.Add(BitmapFrame.Create(whiteBitmap));
-                encoder.Save(fileStream);
-            }
+            
             return whiteBitmap;
-
         }
+
+        public static void SaveImageToFile(WriteableBitmap image)
+        {
+            string? filePath = FileDialogUtilities.SaveImageFile();
+            if (filePath != null)
+            {
+                // Zapis obrazu do pliku
+                using (var fileStream = new System.IO.FileStream(filePath, System.IO.FileMode.Create))
+                {
+                    var encoder = new PngBitmapEncoder();
+                    encoder.Frames.Add(BitmapFrame.Create(image));
+                    encoder.Save(fileStream);
+                }
+
+            }
+        }
+
+        public static BitmapImage CropImageToSquare(BitmapImage sourceImage)
+        {
+            // Ustal proporcje obrazu źródłowego
+            double sourceWidth = sourceImage.PixelWidth;
+            double sourceHeight = sourceImage.PixelHeight;
+            double aspectRatio = sourceWidth / sourceHeight;
+
+            // Określ nowy rozmiar prostokąta docelowego
+            double newWidth, newHeight;
+            if (aspectRatio > 1)
+            {
+                newWidth = sourceHeight;
+                newHeight = sourceHeight;
+            }
+            else
+            {
+                newWidth = sourceWidth;
+                newHeight = sourceWidth;
+            }
+
+            // Oblicz współrzędne przycinania
+            double xOffset = (sourceWidth - newWidth) / 2;
+            double yOffset = (sourceHeight - newHeight) / 2;
+
+            // Utwórz kawałek obrazu
+            CroppedBitmap croppedImage = new CroppedBitmap(sourceImage, new Int32Rect((int)xOffset, (int)yOffset, (int)newWidth, (int)newHeight));
+
+            // Konwertuj do formatu BitmapImage
+            MemoryStream memoryStream = new MemoryStream();
+            BitmapEncoder encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(croppedImage));
+            encoder.Save(memoryStream);
+
+            BitmapImage resultImage = new BitmapImage();
+            resultImage.BeginInit();
+            resultImage.StreamSource = new MemoryStream(memoryStream.ToArray());
+            resultImage.EndInit();
+
+            return resultImage;
+        }
+
+
+
 
 
 

@@ -51,6 +51,22 @@
                     Padding="10"
                     Command="{Binding GenerateWhiteImageCommand}" />
 
+                <TextBlock Text="Rozmiar nowego obrazu:"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Margin="0 10"/>
+
+                <TextBox Width="100"
+                         VerticalAlignment="Center"
+                         Text="{Binding NewImageSize, UpdateSourceTrigger=PropertyChanged}" />
+                
+                <Button Content="Generate StringART"
+                    Margin="0,10,0,10" 
+                    Padding="10"
+                    Command="{Binding GenerateStringArtCommand}" />
+
+                
+                
             </StackPanel>
         </Border>
 
