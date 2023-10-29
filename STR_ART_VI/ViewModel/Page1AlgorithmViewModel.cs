@@ -17,15 +17,28 @@ namespace STR_ART_VI.ViewModel
 {
     public partial class Page1AlgorithmViewModel : ObservableObject
     {
+        private string _tablicaTekstowa;
+
+        public string TablicaTekstowa
+        {
+            get => _tablicaTekstowa;
+            set
+            {
+                SetProperty(ref _tablicaTekstowa, value);
+                ChangeProcessImageCommand.NotifyCanExecuteChanged();
+            }
+        }
+
         public Page1AlgorithmViewModel()
         {
             LoadImageCommand = new RelayCommand(LoadImage, CanLoadImage);
             SaveImageCommand = new RelayCommand(SaveImage, CanSaveImage);
             GenerateWhiteImageCommand = new RelayCommand(GenWhiteImage, CanGenWhiteImage);
             GenerateStringArtCommand = new RelayCommand(GenStrArt, CanGenStrArt);
+            ChangeProcessImageCommand = new RelayCommand(ChangeImage, CanChangeImage);
         }
 
-
+        public IRelayCommand ChangeProcessImageCommand { get; }
 
         public IRelayCommand LoadImageCommand { get; }
         public IRelayCommand SaveImageCommand { get; }
@@ -148,6 +161,30 @@ namespace STR_ART_VI.ViewModel
             return true;
         }
 
+        private bool switch1 = false;
+
+        private void ChangeImage()
+        {
+            if (switch1 == false)
+            {
+                WhiteGen = processImage2;
+                switch1 = true;
+            }
+            else
+            {
+                WhiteGen = processImage1;
+                switch1 = false;
+            }
+            
+            
+        }
+
+        private bool CanChangeImage()
+        {
+            return true;
+        }
+        
+
         private void GenWhiteImage()
         {
             WriteableBitmap img = ImageUtilities.GenerateWhiteImage(600, 600);
@@ -160,6 +197,9 @@ namespace STR_ART_VI.ViewModel
             return true;
         
         }
+
+        private BitmapImage processImage1;
+        private BitmapImage processImage2;
 
         private void GenStrArt()
         {
@@ -186,8 +226,18 @@ namespace STR_ART_VI.ViewModel
 
             bitmap = ImageUtilities.ResizeImage(bitmap, newImageSize.Value, newImageSize.Value);
 
+            bitmap = ImageUtilities.ConvertToBlackAndWhite(bitmap);
 
-            WhiteGen = bitmap;
+            //bitmap = ImageUtilities.DetectEdges(bitmap, 50, 50, 2);
+
+            //bitmap = ImageUtilities.InvertColors(bitmap, 230);
+
+            //(bitmap, BitmapImage obrazWysoki) = ImageUtilities.RozdzielObrazy(bitmap);
+
+            (processImage1, int[] tablica) = ImageUtilities.PrzetworzObraz(bitmap, 4);
+            processImage2 = ImageUtilities.DodajCzerwonePiksle(processImage1);
+            TablicaTekstowa = string.Join(", ", tablica);
+            WhiteGen = processImage2;
 
             WriteableBitmap writeableBitmap = new WriteableBitmap(bitmap);
             ImageUtilities.SaveImageToFile(writeableBitmap);
@@ -199,6 +249,8 @@ namespace STR_ART_VI.ViewModel
             return true;
 
         }
+
+
 
 
 

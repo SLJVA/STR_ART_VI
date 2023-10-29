@@ -65,15 +65,23 @@
                     Padding="10"
                     Command="{Binding GenerateStringArtCommand}" />
 
-                
-                
+                <Button Content="Change Process Image"
+                    Margin="0,10,0,10" 
+                    Padding="10"
+                    Command="{Binding ChangeProcessImageCommand}" />
+
+                <TextBlock Grid.Row="0"  Text="{Binding TablicaTekstowa}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20 0" />
             </StackPanel>
         </Border>
-
-        <!-- Wyświetlanie ProcessedImage po prawej stronie -->
-        <Image Grid.Column="1"
+        
+            <!-- Wyświetlanie ProcessedImage po prawej stronie -->
+            <Image Grid.Column="1"
                Stretch="Uniform"
                Source="{Binding WhiteGen}"/>
+
+
+        
+        
     </Grid> 
 
 </UserControl>
