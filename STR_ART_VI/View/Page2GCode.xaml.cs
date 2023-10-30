@@ -1,4 +1,5 @@
 ﻿using System.Windows.Controls;
+using STR_ART_VI.ViewModel;
 
 namespace STR_ART_VI.View
 {
@@ -7,9 +8,12 @@ namespace STR_ART_VI.View
     /// </summary>
     public partial class Page2GCode : UserControl
     {
+
         public Page2GCode()
         {
             InitializeComponent();
+            var viewModel = new Page2GCodeViewModel();
+            DataContext = viewModel;
         }
 
     }

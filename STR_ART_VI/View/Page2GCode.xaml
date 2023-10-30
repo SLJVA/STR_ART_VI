@@ -7,10 +7,24 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="#222222">
-        <Label Content="G-CODE"
-                   FontSize="45"
-                   Foreground="white"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
-    </Grid>
+        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="Generate Image" Command="{Binding GenerateImageCommand}" Margin="5"/>
+                <Button Content="Open File" Command="{Binding OpenFileCommand}" Margin="5"/>
+            <Button Content="Refresh" Command="{Binding RefreshCommand}" Margin="5"/>
+            <TextBlock Text="{Binding CalculatedAngle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+                <TextBlock Text="{Binding CalculatedAngle2}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+
+
+            </StackPanel>
+
+            <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="10">
+                <Image Source="{Binding GeneratedImage}" Stretch="Uniform" />
+            </Border>
+        </Grid>
 </UserControl>

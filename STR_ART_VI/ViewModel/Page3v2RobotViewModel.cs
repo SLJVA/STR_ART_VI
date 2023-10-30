@@ -13,6 +13,12 @@ using System.Windows;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using CommunityToolkit.Mvvm.ComponentModel;
+using Microsoft.Win32;
+using System;
+using System.IO;
+using System.Text.RegularExpressions;
+using System.Globalization;
+
 
 namespace STR_ART_VI.ViewModel
 {
@@ -31,7 +37,12 @@ namespace STR_ART_VI.ViewModel
             ResetBasePosCommand = new RelayCommand(ResetBasePos, CanResetBasePos);
             DremelCommand = new RelayCommand(Dremel, CanDremel);
             _clientWebSocket = new ClientWebSocket();
-
+            LoadFileAutoModeCommand = new RelayCommand(LoadFileAutoMode);
+            StartProcessModeCommand = new RelayCommand(StartProcessMode);
+            FirstPointRCFCommand = new RelayCommand(FirstPointRCF);
+            SecondPointRCFCommand = new RelayCommand(SecondPointRCF);
+            ThirdPointRCFCommand = new RelayCommand(ThirdPointRCF);
+            CalculateCentreCommand = new RelayCommand(CalculateCentre);
         }
 
         public IRelayCommand ConnectCommand { get; }
@@ -41,7 +52,196 @@ namespace STR_ART_VI.ViewModel
         public IRelayCommand ResetBasePosCommand { get; }
         public IRelayCommand PlusYCommand { get; }
         public IRelayCommand DremelCommand { get; }
+        public IRelayCommand LoadFileAutoModeCommand { get; }
+        public IRelayCommand StartProcessModeCommand { get; }
+        public IRelayCommand FirstPointRCFCommand { get; }
+        public IRelayCommand SecondPointRCFCommand { get; }
+        public IRelayCommand ThirdPointRCFCommand { get; }
+        public IRelayCommand CalculateCentreCommand { get; }
 
+        private string _fileContent;
+
+        public string FileContent
+        {
+            get => _fileContent;
+            set
+            {
+                SetProperty(ref _fileContent, value);
+                LoadFileAutoModeCommand.NotifyCanExecuteChanged();
+            }
+        }
+        //Pierwszy punkt
+        private string _firstPointRCFvalue;
+        public string FirstPointRCFvalue
+        {
+            get => _firstPointRCFvalue;
+            set
+            {
+                SetProperty(ref _firstPointRCFvalue, value);
+                FirstPointRCFCommand.NotifyCanExecuteChanged();
+            }
+        }
+        public double firstRCFx;
+        public double firstRCFy;
+        private void FirstPointRCF()
+        {
+            FirstPointRCFvalue = ReceivedMessage;
+            var result = ExtractCoordinates(FirstPointRCFvalue); // Użyj 'var' do deklaracji krotki
+            firstRCFx = result.Item1; // Pobierz pierwszy element krotki
+            firstRCFy = result.Item2; // Pobierz drugi element krotki
+        }
+        //Drugi punkt
+        private string _secondPointRCFvalue;
+        public string SecondPointRCFvalue
+        {
+            get => _secondPointRCFvalue;
+            set
+            {
+                SetProperty(ref _secondPointRCFvalue, value);
+                SecondPointRCFCommand.NotifyCanExecuteChanged();
+            }
+        }
+        public double secondRCFx;
+        public double secondRCFy;
+        private void SecondPointRCF()
+        {
+            SecondPointRCFvalue = ReceivedMessage;
+            var result = ExtractCoordinates(SecondPointRCFvalue); // Użyj 'var' do deklaracji krotki
+            secondRCFx = result.Item1; // Pobierz pierwszy element krotki
+            secondRCFy = result.Item2; // Pobierz drugi element krotki
+        }
+        //Trzeci punkt
+        private string _thirdPointRCFvalue;
+        public string ThirdPointRCFvalue
+        {
+            get => _thirdPointRCFvalue;
+            set
+            {
+                SetProperty(ref _thirdPointRCFvalue, value);
+                ThirdPointRCFCommand.NotifyCanExecuteChanged();
+            }
+        }
+        public double thirdRCFx;
+        public double thirdRCFy;
+        private void ThirdPointRCF()
+        {
+            ThirdPointRCFvalue = ReceivedMessage;
+            var result = ExtractCoordinates(ThirdPointRCFvalue); // Użyj 'var' do deklaracji krotki
+            thirdRCFx = result.Item1; // Pobierz pierwszy element krotki
+            thirdRCFy = result.Item2; // Pobierz drugi element krotki
+        }
+        //Wyznaczenie środka okręgu
+
+
+        public (double centerX, double centerY, double radius) CalculateCircleCenter(double firstX, double firstY, double secondX, double secondY, double thirdX, double thirdY)
+        {
+
+            NumberFormatInfo setPrecision = new NumberFormatInfo();
+            setPrecision.NumberDecimalDigits = 2;
+
+            double x12 = firstX - secondX;
+            double x13 = firstX - thirdX;
+
+            double y12 = firstY - secondY;
+            double y13 = firstY - thirdY;
+
+            double y31 = thirdY - firstY;
+            double y21 = secondY - firstY;
+
+            double x31 = thirdX - firstX;
+            double x21 = secondX - firstX;
+
+            double sx13 = (double)(Math.Pow(firstX, 2) -
+                            Math.Pow(thirdX, 2));
+
+            double sy13 = (double)(Math.Pow(firstY, 2) -
+                            Math.Pow(thirdY, 2));
+
+            double sx21 = (double)(Math.Pow(secondX, 2) -
+                            Math.Pow(firstX, 2));
+
+            double sy21 = (double)(Math.Pow(secondY, 2) -
+                            Math.Pow(firstY, 2));
+
+            double f = ((sx13) * (x12)
+                    + (sy13) * (x12)
+                    + (sx21) * (x13)
+                    + (sy21) * (x13))
+                    / (2 * ((y31) * (x12) - (y21) * (x13)));
+            double g = ((sx13) * (y12)
+                    + (sy13) * (y12)
+                    + (sx21) * (y13)
+                    + (sy21) * (y13))
+                    / (2 * ((x31) * (y12) - (x21) * (y13)));
+
+            double c = -(double)Math.Pow(firstX, 2) - (double)Math.Pow(firstY, 2) -
+                                        2 * g * firstX - 2 * f * firstY;
+            double centerX = -g;
+            double centerY = -f;
+
+
+
+
+
+            // Promień okręgu to odległość od środka środkowego okręgu do dowolnego z punktów trójkąta.
+            double radius = Math.Sqrt(Math.Pow(centerX - firstX, 2) + Math.Pow(centerY - firstY, 2));
+
+            return (centerX, centerY, radius);
+        }
+        private void CalculateCentre()
+        {
+
+            var result = CalculateCircleCenter(firstRCFx, firstRCFy, secondRCFx, secondRCFy, thirdRCFx, thirdRCFy);
+
+            CalculatedCenterRCFvalue = $"Środek okręgu: X={result.Item1:F2}, Y={result.Item2:F2}, Promień={result.Item3:F2}";
+
+        }
+        private string _calculatedCenterRCFvalue;
+        public string CalculatedCenterRCFvalue
+        {
+            get => _calculatedCenterRCFvalue;
+            set
+            {
+                SetProperty(ref _calculatedCenterRCFvalue, value);
+                CalculateCentreCommand.NotifyCanExecuteChanged();
+            }
+        }
+
+        //
+        private void LoadFileAutoMode()
+        {
+            FileContent = OpenAndReadTextFile();
+
+        }
+
+        public static string OpenAndReadTextFile()
+        {
+            string selectedFilePath = string.Empty;
+            string fileContent = string.Empty;
+
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                Filter = "Pliki tekstowe (*.txt)|*.txt",
+                FilterIndex = 1,
+                RestoreDirectory = true
+            };
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                selectedFilePath = openFileDialog.FileName;
+
+                try
+                {
+                    fileContent = File.ReadAllText(selectedFilePath);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Wystąpił błąd podczas odczytu pliku: " + ex.Message);
+                }
+            }
+
+            return fileContent;
+        }
 
         private async void Connect()
         {
@@ -63,6 +263,12 @@ namespace STR_ART_VI.ViewModel
         private bool CanConnect()
         {
             return ConnectionStatus != "Connected";
+        }
+
+        private async void StartProcessMode()
+        {
+            await SendCommandAsync(FileContent);
+            await SendCommandAsync("on");
         }
 
         private async void Dremel()
@@ -189,6 +395,31 @@ namespace STR_ART_VI.ViewModel
                 _receivedMessage = value;
                 OnPropertyChanged(nameof(ReceivedMessage));
             }
+        }
+
+
+        static (double x, double y) ExtractCoordinates(string input)
+        {
+            double x = 0.0;
+            double y = 0.0;
+
+            // Użyj wyrażenia regularnego do znalezienia wartości X i Y.
+            Match matchX = Regex.Match(input, @"X=(-?\d+\.\d+)");
+            Match matchY = Regex.Match(input, @"Y=(-?\d+\.\d+)");
+
+            if (matchX.Success)
+            {
+                // Jeśli znaleziono wartość X, parsuj ją na double.
+                x = double.Parse(matchX.Groups[1].Value, CultureInfo.InvariantCulture);
+            }
+
+            if (matchY.Success)
+            {
+                // Jeśli znaleziono wartość Y, parsuj ją na double.
+                y = double.Parse(matchY.Groups[1].Value, CultureInfo.InvariantCulture);
+            }
+
+            return (x, y);
         }
 
     }

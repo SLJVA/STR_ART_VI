@@ -16,7 +16,7 @@
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="BorderBrush" Value="Transparent"/>
             <Setter Property="Margin" Value="0 0 0 0"/>
-            <Setter Property="Width" Value="958"/>
+            <Setter Property="Width" Value="300"/>
             <Setter Property="Padding" Value="10 10"/>
             <Setter Property="FontWeight" Value="500"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
@@ -92,6 +92,10 @@
                 <TabItem Header="AUTO MODE" Style="{DynamicResource TabItemStyle}">
                     <local:AutoMode/>
                 </TabItem>
+                <TabItem Header="CONFIGURATION" Style="{DynamicResource TabItemStyle}">
+                    <local:Configuration/>
+                </TabItem>
+                
             </TabControl>
         </Grid>
     </Grid>

@@ -29,9 +29,10 @@
                         Width="200"
                         Padding="2"
                         Command="{Binding LoadFileAutoModeCommand}" />
-            <ComboBox Grid.Row="0" Grid.Column="1" Height="30" Width="300">
+            <!--<ComboBox Grid.Row="0" Grid.Column="1" Height="30" Width="300">
                 <ComboBoxItem>item1</ComboBoxItem>
-            </ComboBox>
+            </ComboBox>-->
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding FileContent}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap"/>
             <Grid Grid.Row="1" Grid.ColumnSpan="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
