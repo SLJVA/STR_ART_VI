@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="STR_ART_VI.View.ThreadART"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:STR_ART_VI.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#222222">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button 
+            Grid.Column="0"
+            Content="Load ThreadART txt file"
+            Height="30"
+            Margin="5,10,5,10" 
+            Padding="10 0"
+            Command="{Binding LoadThreadArtCommand}" />
+        <Label Grid.Column="0" 
+                   Content="Wykryta liczba gwoździ:"
+                   FontSize="12"
+                   Margin="0 80 0 0"
+                   Padding="10 10"
+                   Foreground="white"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="0"
+                   Background="Transparent"
+                   Text="{Binding NailCountValue}" 
+                   FontSize="22"
+                   Foreground="White"
+                   Width="120"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   Margin="0 150 0 0"
+                   Height="30"
+                   TextWrapping="Wrap"/>
+        <Label Grid.Column="0" 
+                   Content="Liczba połączeń:"
+                   FontSize="12"
+                   Margin="0 220 0 0"
+                   Padding="10 10"
+                   Foreground="white"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="0"
+                   Background="Transparent"
+                   Text="{Binding PointArraySizeValue}" 
+                   FontSize="22"
+                   Foreground="White"
+                   Width="120"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   Margin="0 300 0 0"
+                   Height="30"
+                   TextWrapping="Wrap"/>
+        <TextBlock Grid.Column="1"
+                   Background="Transparent"
+                   Text="{Binding PointsValue}" 
+                   FontSize="8"
+                   Foreground="White"
+                   Width="Auto"
+                   Height="Auto"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   TextWrapping="Wrap"/>
+    </Grid>
+</UserControl>

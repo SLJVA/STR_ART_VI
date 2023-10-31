@@ -123,6 +123,9 @@
                 <TabItem Header="Robot v2" Style="{DynamicResource TabItemStyle}">
                     <view:Page3v2Robot/>
                 </TabItem>
+                <TabItem Header="Thread ART converter" Style="{DynamicResource TabItemStyle}">
+                    <view:ThreadART/>
+                </TabItem>
             </TabControl>
         </Grid>
     </Grid>

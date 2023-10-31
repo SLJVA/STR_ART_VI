@@ -19,7 +19,7 @@
             <Button Content="Refresh" Command="{Binding RefreshCommand}" Margin="5"/>
             <TextBlock Text="{Binding CalculatedAngle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
                 <TextBlock Text="{Binding CalculatedAngle2}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
-
+            
 
             </StackPanel>
 
