@@ -1,0 +1,175 @@
+﻿<UserControl x:Class="STR_ART_VI.View.NailsQuadGeneratorWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:STR_ART_VI.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <UserControl.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#222222"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style x:Key="MenuContainerStyle" TargetType="Border">
+            <Setter Property="Background" Value="#333333"/>
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Menu z lewej strony -->
+        <Border Style="{StaticResource MenuContainerStyle}">
+            <StackPanel Orientation="Vertical" Margin="10">
+                <Button Content="Refresh list"
+                        Margin="0,10,0,10" 
+                        Height="30"
+                        Command="{Binding AddElementCommand}"/>
+                <ComboBox 
+                        ItemsSource="{Binding ImageFiles}"
+                        SelectedItem="{Binding SelectedImageFile}"/>
+                <Button Content="Generate blank"
+                        Margin="0,10,0,5" 
+                        Padding="10"
+                        Height="50"
+                        Command="{Binding GenBlankNailCircleImageCommand}"/>
+                <Label
+                   Content="First point X:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="FirstPointXTextBox"
+                         Text="{Binding FirstPointXText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Label
+                   Content="First point Y:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="FirstPointYTextBox"
+                         Text="{Binding FirstPointYText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Button Content="Set first point"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding SetFirstCorrnerCommand}"/>
+                <Label
+                   Content="Second point X:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="SecondPointXTextBox"
+                         Text="{Binding SecondPointXText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Label
+                   Content="Second point Y:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="SecondPointYTextBox"
+                         Text="{Binding SecondPointYText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Button Content="Set second point"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding SetSecondCorrnerCommand}"/>
+                <Label
+                   Content="Nails count:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="NailsCountTextBox"
+                         Text="{Binding NailsCountText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Button Content="Distribute equally"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding DistributeNailsEquallyCommand}"/>
+                <Label
+                   Content="Ratio:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="NailsRatioDistributeTextBox"
+                         Text="{Binding NailsRatioDistributeText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Button Content="Distribute with ratio"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding DistributeNailsWithRatioCommand}"/>
+                <Label
+                   Content="File Name:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <TextBox x:Name="NailsFileNameTextBox"
+                         Text="{Binding NailsFileNameText, Mode=TwoWay}"
+                         Grid.Row ="0" 
+                         Grid.Column="0" 
+                         Width="100"
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="0,5,0,5" 
+                         Height="15"/>
+                <Button Content="Save"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding NailsFileSaveCommand}"/>
+            </StackPanel>
+        </Border>
+
+        <Image Grid.Column="1"
+               Stretch="Uniform"
+               Margin="10 10"
+               MaxHeight="900"
+               Source="{Binding GeneratedBitmapImage}"/>
+    </Grid>
+</UserControl>

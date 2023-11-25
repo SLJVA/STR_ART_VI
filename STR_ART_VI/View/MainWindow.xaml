@@ -126,6 +126,9 @@
                 <TabItem Header="Thread ART converter" Style="{DynamicResource TabItemStyle}">
                     <view:ThreadART/>
                 </TabItem>
+                <TabItem Header="Generator" Style="{DynamicResource TabItemStyle}">
+                    <view:GeneratorWindow/>
+                </TabItem>
             </TabControl>
         </Grid>
     </Grid>

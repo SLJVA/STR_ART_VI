@@ -121,8 +121,10 @@ namespace STR_ART_VI.ViewModel
 
         private void UpdateImage()
         {
-            int width = 740;
-            int height = 800;
+            //int width = 740;
+            //int height = 800;
+            int width = 7000;
+            int height = 7000;
             int Z = 60;
             int speed;
 

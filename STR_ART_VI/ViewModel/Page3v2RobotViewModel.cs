@@ -43,6 +43,8 @@ namespace STR_ART_VI.ViewModel
             SecondPointRCFCommand = new RelayCommand(SecondPointRCF);
             ThirdPointRCFCommand = new RelayCommand(ThirdPointRCF);
             CalculateCentreCommand = new RelayCommand(CalculateCentre);
+            GenerateNailPositionCommand = new RelayCommand(GenerateNailPosition);
+
         }
 
         public IRelayCommand ConnectCommand { get; }
@@ -58,6 +60,10 @@ namespace STR_ART_VI.ViewModel
         public IRelayCommand SecondPointRCFCommand { get; }
         public IRelayCommand ThirdPointRCFCommand { get; }
         public IRelayCommand CalculateCentreCommand { get; }
+        public IRelayCommand GenerateNailPositionCommand { get; }
+
+        [ObservableProperty]
+        private string _diameterSizeMessage = string.Empty;
 
         private string _fileContent;
 
@@ -130,9 +136,52 @@ namespace STR_ART_VI.ViewModel
             thirdRCFx = result.Item1; // Pobierz pierwszy element krotki
             thirdRCFy = result.Item2; // Pobierz drugi element krotki
         }
+
+
+        //Generowanie tablicy zawierającej pozycje gwoździ (współrzędne x,y) rozmieszczonych po okręgu o znanej średnicy i pozycji środka okręgu.
+        //Ilość gwoździ również jest znana
+
+        private string _pointsXYPosArray;
+
+        public string PointsXYPosArray
+        {
+            get => _pointsXYPosArray;
+            set
+            {
+                SetProperty(ref _pointsXYPosArray, value);
+            }
+        }
+        public double centerX;
+        public double centerY;
+
+        public void GenerateNailPosition()
+        {
+            //double center_x = centerX;
+            //double center_y = centerY;
+            double center_x = 430;
+            double center_y = 375.5;
+            //double diameter = Double.Parse(DiameterSizeMessage);
+            double diameter = 480;
+            int numberOfPoints = 200;
+
+            double[] pointsX;
+            double[] pointsY;
+
+            CalculateCirclePoints(center_x, center_y, diameter, numberOfPoints, out pointsX, out pointsY);
+            StringBuilder stringBuilder = new StringBuilder();
+
+            for (int i = 0; i < pointsX.Length; i++)
+            {
+                string pointString = string.Format("x{0:0.00},y{1:0.00};", pointsX[i], pointsY[i]);
+                stringBuilder.Append(pointString);
+            }
+
+            PointsXYPosArray = stringBuilder.ToString();
+
+
+
+        }
         //Wyznaczenie środka okręgu
-
-
         public (double centerX, double centerY, double radius) CalculateCircleCenter(double firstX, double firstY, double secondX, double secondY, double thirdX, double thirdY)
         {
 
@@ -194,6 +243,8 @@ namespace STR_ART_VI.ViewModel
             var result = CalculateCircleCenter(firstRCFx, firstRCFy, secondRCFx, secondRCFy, thirdRCFx, thirdRCFy);
 
             CalculatedCenterRCFvalue = $"Środek okręgu: X={result.Item1:F2}, Y={result.Item2:F2}, Promień={result.Item3:F2}";
+            centerX = result.Item1;
+            centerY = result.Item2;
 
         }
         private string _calculatedCenterRCFvalue;
@@ -421,6 +472,23 @@ namespace STR_ART_VI.ViewModel
 
             return (x, y);
         }
+
+        public static void CalculateCirclePoints(double centerX, double centerY, double diameter, int numberOfPoints, out double[] pointsX, out double[] pointsY)
+        {
+            pointsX = new double[numberOfPoints];
+            pointsY = new double[numberOfPoints];
+
+            for (int i = 0; i < numberOfPoints; i++)
+            {
+                double angle = (2 * Math.PI * i) / numberOfPoints;
+                double x = centerX + ((diameter / 2) * Math.Cos(angle));
+                double y = centerY + ((diameter / 2) * Math.Sin(angle));
+
+                pointsX[i] = x;
+                pointsY[i] = y;
+            }
+        }
+
 
     }
 }

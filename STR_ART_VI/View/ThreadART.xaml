@@ -11,7 +11,13 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-
+        <Button 
+            Grid.Column="0"
+            Content="Generate gcode for drill"
+            Height="30"
+            Margin="5,10,5,100" 
+            Padding="10 0"
+            Command="{Binding GenerateGcodeDrillCommand}" />
         <Button 
             Grid.Column="0"
             Content="Load ThreadART txt file"

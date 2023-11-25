@@ -50,6 +50,77 @@ namespace STR_ART_VI.Model
             return resizedImage;
         }
 
+        // Funkcja do zapisywania BitmapImage do pliku PNG
+        public static void SaveBitmapImageToPng(BitmapImage bitmapImage, string fileName)
+        {
+            fileName += ".png";
+            // Uzyskaj ścieżkę do folderu ImageCollection wewnątrz folderu projektu
+            string projectDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+            string imageCollectionDirectory = Path.Combine(projectDirectory, "ImageCollection");
+
+            // Sprawdź, czy folder ImageCollection istnieje, jeśli nie, utwórz go
+            if (!Directory.Exists(imageCollectionDirectory))
+            {
+                Directory.CreateDirectory(imageCollectionDirectory);
+            }
+
+            // Utwórz pełną ścieżkę docelową do pliku PNG
+            string filePath = Path.Combine(imageCollectionDirectory, fileName);
+
+            // Utwórz obiekt PngBitmapEncoder
+            PngBitmapEncoder encoder = new PngBitmapEncoder();
+
+            // Dodaj klatkę z BitmapImage do encoder
+            encoder.Frames.Add(BitmapFrame.Create(bitmapImage));
+
+            // Utwórz strumień do zapisywania danych
+            using (FileStream stream = new FileStream(filePath, FileMode.Create))
+            {
+                // Zapisz dane do pliku
+                encoder.Save(stream);
+            }
+        }
+
+
+        public static BitmapImage GenerateBitmapImage(int width, int height, System.Drawing.Color backgroundColor)
+        {
+            // Utwórz nowy obiekt WriteableBitmap o określonych rozmiarach i formatie pikseli
+            WriteableBitmap bitmap = new WriteableBitmap(width, height, 96, 96, PixelFormats.Bgra32, null);
+
+            // Uzyskaj dane pikseli z obiektu WriteableBitmap
+            Int32Rect rect = new Int32Rect(0, 0, width, height);
+            int stride = (width * bitmap.Format.BitsPerPixel + 7) / 8;
+            byte[] pixelData = new byte[stride * height];
+
+            // Ustaw kolor tła w formie danych pikseli
+            byte[] backgroundColorBytes = { backgroundColor.B, backgroundColor.G, backgroundColor.R, backgroundColor.A };
+            for (int i = 0; i < pixelData.Length; i += 4)
+            {
+                Array.Copy(backgroundColorBytes, 0, pixelData, i, 4);
+            }
+
+            // Wypełnij obiekt WriteableBitmap danymi pikseli
+            bitmap.WritePixels(rect, pixelData, stride, 0);
+
+            // Konwertuj WriteableBitmap na BitmapImage
+            BitmapImage bitmapImage = new BitmapImage();
+            using (MemoryStream stream = new MemoryStream())
+            {
+                PngBitmapEncoder encoder = new PngBitmapEncoder();
+                encoder.Frames.Add(BitmapFrame.Create(bitmap));
+                encoder.Save(stream);
+                stream.Position = 0;
+
+                bitmapImage.BeginInit();
+                bitmapImage.StreamSource = stream;
+                bitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                bitmapImage.EndInit();
+            }
+
+            // Zwróć gotowy obiekt BitmapImage
+            return bitmapImage;
+        }
+
         public static BitmapSource DetectEdges(BitmapSource sourceImage)
         {
             // Konwersja na obraz w skali szarości
@@ -473,7 +544,7 @@ namespace STR_ART_VI.Model
             int y = 0;
 
             int[] zbiorNowychOdcieni = new int[iloscOdcieni];
-            for (int i = 0; i < iloscOdcieni; i++)
+            for (int i = 0; i <= iloscOdcieni; i++)
             {
                 y = y + wielkoscPrzedzialu;
                 zbiorNowychOdcieni[i] = y;
@@ -492,51 +563,10 @@ namespace STR_ART_VI.Model
                     {
                         pikselePrzetworzone[i] = 255;
                     }
-
-                }
-
-            
+                }            
             }
 
-                //for (int i = 0; i < pikselePrzetworzone.Length; i++)
-                //{
-                //    if (pikselePrzetworzone[i] <= 31)
-                //    {
-                //        pikselePrzetworzone[i] = 31;
-                //    }
-                //    else if (pikselePrzetworzone[i] <= 63)
-                //    {
-                //        pikselePrzetworzone[i] = 63;
-                //    }
-                //    else if (pikselePrzetworzone[i] <= 95)
-                //    {
-                //        pikselePrzetworzone[i] = 95;
-                //    }
-                //    else if (pikselePrzetworzone[i] <= 127)
-                //    {
-                //        pikselePrzetworzone[i] = 127;
-                //    }
-                //    else if (pikselePrzetworzone[i] <= 159)
-                //    {
-                //        pikselePrzetworzone[i] = 159;
-                //    }
-                //    else if (pikselePrzetworzone[i] <= 191)
-                //    {
-                //        pikselePrzetworzone[i] = 191;
-                //    }
-                //    else if (pikselePrzetworzone[i] <= 223)
-                //    {
-                //        pikselePrzetworzone[i] = 223;
-                //    }
-                //    else
-                //    {
-                //        pikselePrzetworzone[i] = 255;
-                //    }
-                //}
-
-
-
-                obrazPrzetworzony = BitmapSource.Create(szerokosc, wysokosc, 96, 96, PixelFormats.Gray8, null, pikselePrzetworzone, szerokosc);
+            obrazPrzetworzony = BitmapSource.Create(szerokosc, wysokosc, 96, 96, PixelFormats.Gray8, null, pikselePrzetworzone, szerokosc);
 
             BitmapImage obrazPrzetworzonyBitmapImage = ConvertBitmapSourceToBitmapImage(obrazPrzetworzony);
 
@@ -610,9 +640,254 @@ namespace STR_ART_VI.Model
             return obrazZCzerwonymiPikselamiBitmapImage;
         }
 
+        public static BitmapImage DodajPiksel(BitmapImage originalBitmapImage, int x, int y, System.Drawing.Color kolor)
+        {
+            // Konwertuj BitmapImage na WriteableBitmap
+            WriteableBitmap writeableBitmap = new WriteableBitmap(originalBitmapImage);
+
+            // Sprawdź, czy podane współrzędne są w granicach bitmapy
+            if (x >= 0 && x < writeableBitmap.PixelWidth && y >= 0 && y < writeableBitmap.PixelHeight)
+            {
+                // Oblicz indeks piksela w tablicy pikseli
+                int pixelIndex = y * writeableBitmap.PixelWidth + x;
+
+                // Ustaw kolor piksela na podany kolor
+                writeableBitmap.WritePixels(new Int32Rect(x, y, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+
+                // Konwertuj WriteableBitmap z powrotem na BitmapImage
+                using (var stream = new System.IO.MemoryStream())
+                {
+                    var encoder = new PngBitmapEncoder();
+                    encoder.Frames.Add(BitmapFrame.Create(writeableBitmap));
+                    encoder.Save(stream);
+                    stream.Position = 0;
+
+                    BitmapImage modifiedBitmapImage = new BitmapImage();
+                    modifiedBitmapImage.BeginInit();
+                    modifiedBitmapImage.StreamSource = stream;
+                    modifiedBitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                    modifiedBitmapImage.EndInit();
+
+                    return modifiedBitmapImage;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Współrzędne są poza granicami bitmapy.");
+                return originalBitmapImage; // Zwracamy oryginalny obraz w przypadku błędu
+            }
+        }      
+        public static BitmapImage ZamalujObszar(BitmapImage originalBitmapImage, int x1, int y1, int x2, int y2, System.Drawing.Color kolor)
+        {
+            // Konwertuj BitmapImage na WriteableBitmap
+            WriteableBitmap writeableBitmap = new WriteableBitmap(originalBitmapImage);
+            // Zapisz rozmiar obrazu
+            int maxX = writeableBitmap.PixelWidth;
+            int maxY = writeableBitmap.PixelHeight;
+            // Sprawdź, czy podane współrzędne są w granicach bitmapy
+            if (x1 >= 0 && x1 < maxX && y1 >= 0 && y1 < maxY && x2 >= 0 && x2 < maxX && y2 >= 0 && y2 < maxY)
+            {
+                for(int y = y1; y <= y2; y++)
+                {
+                    for (int x = x1; x <= x2; x++)
+                    {
+
+                        // Ustaw kolor piksela na podany kolor
+                        writeableBitmap.WritePixels(new Int32Rect(x, y, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                    }
+                }
+                // Konwertuj WriteableBitmap z powrotem na BitmapImage
+                using (var stream = new System.IO.MemoryStream())
+                {
+                    var encoder = new PngBitmapEncoder();
+                    encoder.Frames.Add(BitmapFrame.Create(writeableBitmap));
+                    encoder.Save(stream);
+                    stream.Position = 0;
+
+                    BitmapImage modifiedBitmapImage = new BitmapImage();
+                    modifiedBitmapImage.BeginInit();
+                    modifiedBitmapImage.StreamSource = stream;
+                    modifiedBitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                    modifiedBitmapImage.EndInit();
+
+                    return modifiedBitmapImage;
+                }
+            }
+            else
+            {
+                return originalBitmapImage;
+            }
+        }
 
 
+        public static (BitmapImage, List<ImageUtilities.Punkt>) DodajPikseleNaBokach(BitmapImage originalBitmapImage, int x1, int y1, int x2, int y2, System.Drawing.Color kolor, int nailsCount)
+        {
+            // Konwertuj BitmapImage na WriteableBitmap
+            WriteableBitmap writeableBitmap = new WriteableBitmap(originalBitmapImage);
+
+            // Tworzenie listy punktów
+            List<Punkt> listaPunktow = new List<Punkt>();
+
+            // Zapisz rozmiar obrazu
+            int maxX = writeableBitmap.PixelWidth;
+            int maxY = writeableBitmap.PixelHeight;
+
+            // Sprawdź, czy podane współrzędne są w granicach bitmapy
+            if (x1 >= 0 && x1 < maxX && y1 >= 0 && y1 < maxY && x2 >= 0 && x2 < maxX && y2 >= 0 && y2 < maxY)
+            {
+
+                // Ustaw kolor piksela na podany kolor
+                writeableBitmap.WritePixels(new Int32Rect(x1, y1, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                listaPunktow.Add(new Punkt(x1,y1));
+                writeableBitmap.WritePixels(new Int32Rect(x2, y2, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                listaPunktow.Add(new Punkt(x2, y2));
+                writeableBitmap.WritePixels(new Int32Rect(x1, y2, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                listaPunktow.Add(new Punkt(x1, y2));
+                writeableBitmap.WritePixels(new Int32Rect(x2, y1, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                listaPunktow.Add(new Punkt(x2, y1));
+
+                // Oblicz dystans pomiędzy punktami
+                int distanceBetwenNails = (y2 - y1) / (nailsCount + 1);
+
+                //Sprawdz czy parzysta
+                if (CzyParzysta(nailsCount))
+                {
+                    (writeableBitmap, var listaPunktow1) = RozmiescPoLini(true, y1, x1, x2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    listaPunktow.AddRange(listaPunktow1);
+                    (writeableBitmap, var listaPunktow2) = RozmiescPoLini(true, y2, x1, x2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    listaPunktow.AddRange(listaPunktow2);
+                    (writeableBitmap, var listaPunktow3) = RozmiescPoLini(false, x1, y1, y2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    listaPunktow.AddRange(listaPunktow3);
+                    (writeableBitmap, var listaPunktow4) = RozmiescPoLini(false, x2, y1, y2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    listaPunktow.AddRange(listaPunktow4);
+                }
+                else
+                {
+
+                }
+
+
+                // Konwertuj WriteableBitmap z powrotem na BitmapImage
+                using (var stream = new System.IO.MemoryStream())
+                {
+                    var encoder = new PngBitmapEncoder();
+                    encoder.Frames.Add(BitmapFrame.Create(writeableBitmap));
+                    encoder.Save(stream);
+                    stream.Position = 0;
+
+                    BitmapImage modifiedBitmapImage = new BitmapImage();
+                    modifiedBitmapImage.BeginInit();
+                    modifiedBitmapImage.StreamSource = stream;
+                    modifiedBitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                    modifiedBitmapImage.EndInit();
+
+                    return (modifiedBitmapImage, listaPunktow);
+                }
+            }
+            else
+            {
+                return (originalBitmapImage, listaPunktow);
+            }
+        }
+
+        static bool CzyParzysta(int liczba)
+        {
+            return liczba % 2 == 0;
+        }
+
+        static (WriteableBitmap, List<Punkt>) RozmiescPoLini(bool isX, int stala, int start, int stop, int nailsCount, WriteableBitmap image, int distanceBetwenNails, System.Drawing.Color kolor)
+        {
+
+            // Tworzenie listy punktów
+            List<Punkt> listaPunktow = new List<Punkt>();
+            // Górna krawedz czworokata
+            int j = 1;
+            int p = 1;
+            switch(isX)
+            {
+                case true:
+                    for (int i = 0; i < nailsCount; i++)
+                    {
+                        if (CzyParzysta(i))
+                        {
+                            int x = start + (j * distanceBetwenNails);
+                            // Ustaw kolor piksela na podany kolor
+                            image.WritePixels(new Int32Rect(x, stala, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                            j++;
+                            listaPunktow.Add(new Punkt(x, stala));
+                        }
+                        else
+                        {
+                            int x = stop - (p * distanceBetwenNails);
+                            image.WritePixels(new Int32Rect(x, stala, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                            p++;
+                            listaPunktow.Add(new Punkt(x, stala));
+                        }
+                    }
+                    break;
+                case false:
+                    for (int i = 0; i < nailsCount; i++)
+                    {
+                        if (CzyParzysta(i))
+                        {
+                            int y = start + (j * distanceBetwenNails);
+                            // Ustaw kolor piksela na podany kolor
+                            image.WritePixels(new Int32Rect(stala, y, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                            j++;
+                            listaPunktow.Add(new Punkt(stala, y));
+                        }
+                        else
+                        {
+                            int y = stop - (p * distanceBetwenNails);
+                            image.WritePixels(new Int32Rect(stala, y, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
+                            p++;
+                            listaPunktow.Add(new Punkt(stala, y));
+                        }
+                    }
+               break;
+            }
+
+                
+            
+            return (image, listaPunktow);
+        }
+
+        static BitmapImage WriteableNaBitmapImage(WriteableBitmap image)
+        {
+            using (var stream = new System.IO.MemoryStream())
+            {
+                var encoder = new PngBitmapEncoder();
+                encoder.Frames.Add(BitmapFrame.Create(image));
+                encoder.Save(stream);
+                stream.Position = 0;
+
+                BitmapImage modifiedBitmapImage = new BitmapImage();
+                modifiedBitmapImage.BeginInit();
+                modifiedBitmapImage.StreamSource = stream;
+                modifiedBitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                modifiedBitmapImage.EndInit();
+
+                return modifiedBitmapImage;
+            }
+        }
+        static WriteableBitmap BitmapImageNaWriteable(BitmapImage image)
+        {
+            // Konwertuj BitmapImage na WriteableBitmap
+            WriteableBitmap writeableBitmap = new WriteableBitmap(image);
+            return writeableBitmap;
+        }
+        // Klasa reprezentująca punkt
+        public class Punkt
+        {
+            public double X { get; set; }
+            public double Y { get; set; }
+
+            public Punkt(double x, double y)
+            {
+                X = x;
+                Y = y;
+            }
+        }
     }
-
 }
 

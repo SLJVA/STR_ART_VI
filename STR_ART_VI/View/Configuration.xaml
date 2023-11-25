@@ -18,6 +18,8 @@
             <RowDefinition Height="50" />
             <RowDefinition Height="50" />
             <RowDefinition Height="50" />
+            <RowDefinition Height="350" />
+            <RowDefinition Height="50" />
         </Grid.RowDefinitions>
         <Button Grid.Column="0" Grid.Row="0" 
                         Content="Find the centre of the ring"
@@ -54,17 +56,20 @@
         <TextBlock Grid.Row="2" Grid.Column="0"
                    Background="AntiqueWhite"
                    Text="{Binding FirstPointRCFvalue}" 
+                   Foreground="Black"
                    Width="120"
                    Margin="-250 0 0 0"
                    TextWrapping="Wrap"/>
         <TextBlock Grid.Row="2" Grid.Column="0"
                    Background="AntiqueWhite"
                    Text="{Binding SecondPointRCFvalue}" 
+                   Foreground="Black"
                    Width="120"
                    TextWrapping="Wrap"/>
         <TextBlock Grid.Row="2" Grid.Column="0"
                    Background="AntiqueWhite"
                    Text="{Binding ThirdPointRCFvalue}" 
+                   Foreground="Black"
                    Width="120"
                    Margin="250 0 0 0"
                    TextWrapping="Wrap"/>
@@ -79,9 +84,46 @@
         <TextBlock Grid.Row="3" Grid.Column="0"
                    Background="AntiqueWhite"
                    Text="{Binding CalculatedCenterRCFvalue}" 
+                   Foreground="Black"
                    Width="120"
                    Height="30"
                    Margin="250 0 0 0"
+                   TextWrapping="Wrap"/>
+        <Label Grid.Row="4"
+               HorizontalAlignment="Center"
+               Content="Wprowadź średnicę koła:"
+               FontSize="18"
+               Margin="-200 0 0 0"
+               Foreground="White"
+               VerticalAlignment="Center"
+               />
+        <TextBox x:Name="DiameterSize"
+                         Text="{Binding DiameterSizeMessage, Mode=TwoWay}"
+                         Grid.Row ="4" 
+                         Grid.Column="0" 
+                         Width="120" 
+                         TextWrapping="Wrap" 
+                         HorizontalAlignment="Center" 
+                         Margin="200,5,0,5" 
+                         Height="30" 
+                         FontSize="22"/>
+        <Button Grid.Column="0" Grid.Row="5" 
+                        Content="Generate nails positions"
+                        FontSize="18"
+                        Height="30"
+                        Width="240"
+                        Padding="2"
+                        Command="{Binding GenerateNailPositionCommand}" />
+        <TextBlock Grid.Row="6" 
+                   Background="Transparent"
+                   Text="{Binding PointsXYPosArray}" 
+                   FontSize="16"
+                   Foreground="White"
+                   Width="Auto"
+                   Height="Auto"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
                    TextWrapping="Wrap"/>
     </Grid>
 </UserControl>
