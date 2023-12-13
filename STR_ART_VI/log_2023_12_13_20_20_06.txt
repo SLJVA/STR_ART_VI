@@ -1,0 +1,1 @@
+2023-12-13 20:20:06.788 +01:00 [INF] Aplikacja została uruchomiona.

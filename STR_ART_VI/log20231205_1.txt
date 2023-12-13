@@ -1,0 +1,804 @@
+2023-12-05 18:41:26.296 +01:00 [INF] Aplikacja została uruchomiona.
+2023-12-05 18:41:50.725 +01:00 [INF] Wybrano obraz do załadowania
+2023-12-05 18:42:16.862 +01:00 [INF] Aplikacja została uruchomiona.
+2023-12-05 18:42:27.724 +01:00 [INF] Aplikacja została uruchomiona.
+2023-12-05 18:42:48.040 +01:00 [INF] Wybrano obraz do załadowania
+2023-12-05 18:42:50.422 +01:00 [INF] Wykonano przygotowanie obrazów pod algorytm
+2023-12-05 18:42:50.706 +01:00 [INF] Znaleziono połączenie: 1 / 200
+2023-12-05 18:42:50.709 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,62 MB
+2023-12-05 18:42:50.709 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 1 / 200
+2023-12-05 18:42:50.709 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,62 MB
+2023-12-05 18:42:51.006 +01:00 [INF] Znaleziono połączenie: 2 / 200
+2023-12-05 18:42:51.006 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.006 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 2 / 200
+2023-12-05 18:42:51.006 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.272 +01:00 [INF] Znaleziono połączenie: 3 / 200
+2023-12-05 18:42:51.272 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.272 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 3 / 200
+2023-12-05 18:42:51.272 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.557 +01:00 [INF] Znaleziono połączenie: 4 / 200
+2023-12-05 18:42:51.557 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.557 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 4 / 200
+2023-12-05 18:42:51.557 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.839 +01:00 [INF] Znaleziono połączenie: 5 / 200
+2023-12-05 18:42:51.839 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:51.839 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 5 / 200
+2023-12-05 18:42:51.839 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.103 +01:00 [INF] Znaleziono połączenie: 6 / 200
+2023-12-05 18:42:52.103 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.103 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 6 / 200
+2023-12-05 18:42:52.103 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.356 +01:00 [INF] Znaleziono połączenie: 7 / 200
+2023-12-05 18:42:52.357 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.357 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 7 / 200
+2023-12-05 18:42:52.357 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.665 +01:00 [INF] Znaleziono połączenie: 8 / 200
+2023-12-05 18:42:52.665 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.665 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 8 / 200
+2023-12-05 18:42:52.665 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.923 +01:00 [INF] Znaleziono połączenie: 9 / 200
+2023-12-05 18:42:52.924 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:52.924 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 9 / 200
+2023-12-05 18:42:52.924 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:53.198 +01:00 [INF] Znaleziono połączenie: 10 / 200
+2023-12-05 18:42:53.198 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:53.198 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 10 / 200
+2023-12-05 18:42:53.198 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:53.481 +01:00 [INF] Znaleziono połączenie: 11 / 200
+2023-12-05 18:42:53.481 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:53.481 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 11 / 200
+2023-12-05 18:42:53.481 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:53.766 +01:00 [INF] Znaleziono połączenie: 12 / 200
+2023-12-05 18:42:53.767 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:53.767 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 12 / 200
+2023-12-05 18:42:53.767 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.060 +01:00 [INF] Znaleziono połączenie: 13 / 200
+2023-12-05 18:42:54.060 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.060 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 13 / 200
+2023-12-05 18:42:54.060 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.345 +01:00 [INF] Znaleziono połączenie: 14 / 200
+2023-12-05 18:42:54.345 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.345 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 14 / 200
+2023-12-05 18:42:54.345 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.639 +01:00 [INF] Znaleziono połączenie: 15 / 200
+2023-12-05 18:42:54.640 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.640 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 15 / 200
+2023-12-05 18:42:54.640 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.936 +01:00 [INF] Znaleziono połączenie: 16 / 200
+2023-12-05 18:42:54.936 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:54.936 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 16 / 200
+2023-12-05 18:42:54.936 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:55.223 +01:00 [INF] Znaleziono połączenie: 17 / 200
+2023-12-05 18:42:55.223 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:55.223 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 17 / 200
+2023-12-05 18:42:55.223 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:55.496 +01:00 [INF] Znaleziono połączenie: 18 / 200
+2023-12-05 18:42:55.496 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:55.496 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 18 / 200
+2023-12-05 18:42:55.496 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:55.826 +01:00 [INF] Znaleziono połączenie: 19 / 200
+2023-12-05 18:42:55.826 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:55.826 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 19 / 200
+2023-12-05 18:42:55.826 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:56.229 +01:00 [INF] Znaleziono połączenie: 20 / 200
+2023-12-05 18:42:56.229 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:56.229 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 20 / 200
+2023-12-05 18:42:56.229 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:56.523 +01:00 [INF] Znaleziono połączenie: 21 / 200
+2023-12-05 18:42:56.523 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:56.523 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 21 / 200
+2023-12-05 18:42:56.523 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:56.819 +01:00 [INF] Znaleziono połączenie: 22 / 200
+2023-12-05 18:42:56.820 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:56.820 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 22 / 200
+2023-12-05 18:42:56.820 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,61 MB
+2023-12-05 18:42:57.069 +01:00 [INF] Znaleziono połączenie: 23 / 200
+2023-12-05 18:42:57.069 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:57.069 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 23 / 200
+2023-12-05 18:42:57.069 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:57.432 +01:00 [INF] Znaleziono połączenie: 24 / 200
+2023-12-05 18:42:57.432 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:57.432 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 24 / 200
+2023-12-05 18:42:57.432 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:57.791 +01:00 [INF] Znaleziono połączenie: 25 / 200
+2023-12-05 18:42:57.791 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:57.791 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 25 / 200
+2023-12-05 18:42:57.792 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:58.134 +01:00 [INF] Znaleziono połączenie: 26 / 200
+2023-12-05 18:42:58.134 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:58.134 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 26 / 200
+2023-12-05 18:42:58.134 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:58.454 +01:00 [INF] Znaleziono połączenie: 27 / 200
+2023-12-05 18:42:58.454 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:58.455 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 27 / 200
+2023-12-05 18:42:58.455 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:58.759 +01:00 [INF] Znaleziono połączenie: 28 / 200
+2023-12-05 18:42:58.759 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:58.759 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 28 / 200
+2023-12-05 18:42:58.759 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:59.080 +01:00 [INF] Znaleziono połączenie: 29 / 200
+2023-12-05 18:42:59.080 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:59.080 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 29 / 200
+2023-12-05 18:42:59.080 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:59.348 +01:00 [INF] Znaleziono połączenie: 30 / 200
+2023-12-05 18:42:59.348 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:59.348 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 30 / 200
+2023-12-05 18:42:59.348 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:59.666 +01:00 [INF] Znaleziono połączenie: 31 / 200
+2023-12-05 18:42:59.667 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:42:59.667 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 31 / 200
+2023-12-05 18:42:59.667 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.008 +01:00 [INF] Znaleziono połączenie: 32 / 200
+2023-12-05 18:43:00.009 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.009 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 32 / 200
+2023-12-05 18:43:00.009 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.287 +01:00 [INF] Znaleziono połączenie: 33 / 200
+2023-12-05 18:43:00.287 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.287 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 33 / 200
+2023-12-05 18:43:00.287 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.616 +01:00 [INF] Znaleziono połączenie: 34 / 200
+2023-12-05 18:43:00.616 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.617 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 34 / 200
+2023-12-05 18:43:00.617 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.986 +01:00 [INF] Znaleziono połączenie: 35 / 200
+2023-12-05 18:43:00.986 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:00.986 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 35 / 200
+2023-12-05 18:43:00.986 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:01.249 +01:00 [INF] Znaleziono połączenie: 36 / 200
+2023-12-05 18:43:01.249 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:01.249 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 36 / 200
+2023-12-05 18:43:01.249 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:01.563 +01:00 [INF] Znaleziono połączenie: 37 / 200
+2023-12-05 18:43:01.563 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:01.563 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 37 / 200
+2023-12-05 18:43:01.563 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:01.864 +01:00 [INF] Znaleziono połączenie: 38 / 200
+2023-12-05 18:43:01.864 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:01.864 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 38 / 200
+2023-12-05 18:43:01.864 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:02.227 +01:00 [INF] Znaleziono połączenie: 39 / 200
+2023-12-05 18:43:02.228 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:02.228 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 39 / 200
+2023-12-05 18:43:02.228 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:02.525 +01:00 [INF] Znaleziono połączenie: 40 / 200
+2023-12-05 18:43:02.525 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:02.525 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 40 / 200
+2023-12-05 18:43:02.525 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:02.807 +01:00 [INF] Znaleziono połączenie: 41 / 200
+2023-12-05 18:43:02.808 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:02.808 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 41 / 200
+2023-12-05 18:43:02.808 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:03.096 +01:00 [INF] Znaleziono połączenie: 42 / 200
+2023-12-05 18:43:03.096 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:03.096 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 42 / 200
+2023-12-05 18:43:03.096 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:03.405 +01:00 [INF] Znaleziono połączenie: 43 / 200
+2023-12-05 18:43:03.405 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:03.405 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 43 / 200
+2023-12-05 18:43:03.405 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:03.787 +01:00 [INF] Znaleziono połączenie: 44 / 200
+2023-12-05 18:43:03.787 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:03.787 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 44 / 200
+2023-12-05 18:43:03.787 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:04.170 +01:00 [INF] Znaleziono połączenie: 45 / 200
+2023-12-05 18:43:04.171 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:04.171 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 45 / 200
+2023-12-05 18:43:04.171 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,60 MB
+2023-12-05 18:43:04.507 +01:00 [INF] Znaleziono połączenie: 46 / 200
+2023-12-05 18:43:04.508 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:04.508 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 46 / 200
+2023-12-05 18:43:04.508 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:04.802 +01:00 [INF] Znaleziono połączenie: 47 / 200
+2023-12-05 18:43:04.802 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:04.802 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 47 / 200
+2023-12-05 18:43:04.803 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:05.132 +01:00 [INF] Znaleziono połączenie: 48 / 200
+2023-12-05 18:43:05.132 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:05.132 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 48 / 200
+2023-12-05 18:43:05.132 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:05.499 +01:00 [INF] Znaleziono połączenie: 49 / 200
+2023-12-05 18:43:05.500 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:05.500 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 49 / 200
+2023-12-05 18:43:05.500 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:05.833 +01:00 [INF] Znaleziono połączenie: 50 / 200
+2023-12-05 18:43:05.833 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:05.833 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 50 / 200
+2023-12-05 18:43:05.833 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:06.136 +01:00 [INF] Znaleziono połączenie: 51 / 200
+2023-12-05 18:43:06.136 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:06.136 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 51 / 200
+2023-12-05 18:43:06.136 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:06.403 +01:00 [INF] Znaleziono połączenie: 52 / 200
+2023-12-05 18:43:06.404 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:06.404 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 52 / 200
+2023-12-05 18:43:06.404 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:06.708 +01:00 [INF] Znaleziono połączenie: 53 / 200
+2023-12-05 18:43:06.708 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:06.708 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 53 / 200
+2023-12-05 18:43:06.709 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.009 +01:00 [INF] Znaleziono połączenie: 54 / 200
+2023-12-05 18:43:07.010 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.010 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 54 / 200
+2023-12-05 18:43:07.010 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.265 +01:00 [INF] Znaleziono połączenie: 55 / 200
+2023-12-05 18:43:07.265 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.265 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 55 / 200
+2023-12-05 18:43:07.265 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.549 +01:00 [INF] Znaleziono połączenie: 56 / 200
+2023-12-05 18:43:07.549 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.549 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 56 / 200
+2023-12-05 18:43:07.549 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.821 +01:00 [INF] Znaleziono połączenie: 57 / 200
+2023-12-05 18:43:07.821 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:07.821 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 57 / 200
+2023-12-05 18:43:07.821 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.093 +01:00 [INF] Znaleziono połączenie: 58 / 200
+2023-12-05 18:43:08.093 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.094 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 58 / 200
+2023-12-05 18:43:08.094 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.373 +01:00 [INF] Znaleziono połączenie: 59 / 200
+2023-12-05 18:43:08.374 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.374 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 59 / 200
+2023-12-05 18:43:08.374 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.662 +01:00 [INF] Znaleziono połączenie: 60 / 200
+2023-12-05 18:43:08.662 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.662 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 60 / 200
+2023-12-05 18:43:08.662 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.955 +01:00 [INF] Znaleziono połączenie: 61 / 200
+2023-12-05 18:43:08.955 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:08.955 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 61 / 200
+2023-12-05 18:43:08.955 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:09.241 +01:00 [INF] Znaleziono połączenie: 62 / 200
+2023-12-05 18:43:09.241 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:09.241 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 62 / 200
+2023-12-05 18:43:09.242 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:09.511 +01:00 [INF] Znaleziono połączenie: 63 / 200
+2023-12-05 18:43:09.511 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:09.511 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 63 / 200
+2023-12-05 18:43:09.511 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:09.801 +01:00 [INF] Znaleziono połączenie: 64 / 200
+2023-12-05 18:43:09.802 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:09.802 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 64 / 200
+2023-12-05 18:43:09.802 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.110 +01:00 [INF] Znaleziono połączenie: 65 / 200
+2023-12-05 18:43:10.111 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.111 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 65 / 200
+2023-12-05 18:43:10.111 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.406 +01:00 [INF] Znaleziono połączenie: 66 / 200
+2023-12-05 18:43:10.406 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.406 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 66 / 200
+2023-12-05 18:43:10.406 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.685 +01:00 [INF] Znaleziono połączenie: 67 / 200
+2023-12-05 18:43:10.685 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.685 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 67 / 200
+2023-12-05 18:43:10.685 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.976 +01:00 [INF] Znaleziono połączenie: 68 / 200
+2023-12-05 18:43:10.976 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:10.977 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 68 / 200
+2023-12-05 18:43:10.977 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:11.239 +01:00 [INF] Znaleziono połączenie: 69 / 200
+2023-12-05 18:43:11.239 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:11.239 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 69 / 200
+2023-12-05 18:43:11.239 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:11.516 +01:00 [INF] Znaleziono połączenie: 70 / 200
+2023-12-05 18:43:11.516 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:11.517 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 70 / 200
+2023-12-05 18:43:11.517 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:11.831 +01:00 [INF] Znaleziono połączenie: 71 / 200
+2023-12-05 18:43:11.831 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:11.831 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 71 / 200
+2023-12-05 18:43:11.832 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.107 +01:00 [INF] Znaleziono połączenie: 72 / 200
+2023-12-05 18:43:12.107 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.107 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 72 / 200
+2023-12-05 18:43:12.107 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.371 +01:00 [INF] Znaleziono połączenie: 73 / 200
+2023-12-05 18:43:12.371 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.371 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 73 / 200
+2023-12-05 18:43:12.371 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.647 +01:00 [INF] Znaleziono połączenie: 74 / 200
+2023-12-05 18:43:12.647 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.647 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 74 / 200
+2023-12-05 18:43:12.647 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.937 +01:00 [INF] Znaleziono połączenie: 75 / 200
+2023-12-05 18:43:12.937 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:12.937 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 75 / 200
+2023-12-05 18:43:12.937 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:13.220 +01:00 [INF] Znaleziono połączenie: 76 / 200
+2023-12-05 18:43:13.221 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:13.221 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 76 / 200
+2023-12-05 18:43:13.221 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:13.515 +01:00 [INF] Znaleziono połączenie: 77 / 200
+2023-12-05 18:43:13.515 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:13.515 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 77 / 200
+2023-12-05 18:43:13.515 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:13.793 +01:00 [INF] Znaleziono połączenie: 78 / 200
+2023-12-05 18:43:13.793 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:13.793 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 78 / 200
+2023-12-05 18:43:13.793 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.073 +01:00 [INF] Znaleziono połączenie: 79 / 200
+2023-12-05 18:43:14.073 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.073 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 79 / 200
+2023-12-05 18:43:14.073 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.339 +01:00 [INF] Znaleziono połączenie: 80 / 200
+2023-12-05 18:43:14.339 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.339 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 80 / 200
+2023-12-05 18:43:14.339 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.632 +01:00 [INF] Znaleziono połączenie: 81 / 200
+2023-12-05 18:43:14.632 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.632 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 81 / 200
+2023-12-05 18:43:14.632 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.913 +01:00 [INF] Znaleziono połączenie: 82 / 200
+2023-12-05 18:43:14.913 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:14.913 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 82 / 200
+2023-12-05 18:43:14.913 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:15.211 +01:00 [INF] Znaleziono połączenie: 83 / 200
+2023-12-05 18:43:15.211 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:15.211 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 83 / 200
+2023-12-05 18:43:15.211 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:15.488 +01:00 [INF] Znaleziono połączenie: 84 / 200
+2023-12-05 18:43:15.488 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:15.488 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 84 / 200
+2023-12-05 18:43:15.488 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:15.773 +01:00 [INF] Znaleziono połączenie: 85 / 200
+2023-12-05 18:43:15.773 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:15.773 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 85 / 200
+2023-12-05 18:43:15.773 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.066 +01:00 [INF] Znaleziono połączenie: 86 / 200
+2023-12-05 18:43:16.066 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.067 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 86 / 200
+2023-12-05 18:43:16.067 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.346 +01:00 [INF] Znaleziono połączenie: 87 / 200
+2023-12-05 18:43:16.346 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.347 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 87 / 200
+2023-12-05 18:43:16.347 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.648 +01:00 [INF] Znaleziono połączenie: 88 / 200
+2023-12-05 18:43:16.648 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.648 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 88 / 200
+2023-12-05 18:43:16.648 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.927 +01:00 [INF] Znaleziono połączenie: 89 / 200
+2023-12-05 18:43:16.927 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:16.927 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 89 / 200
+2023-12-05 18:43:16.927 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:17.192 +01:00 [INF] Znaleziono połączenie: 90 / 200
+2023-12-05 18:43:17.192 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:17.192 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 90 / 200
+2023-12-05 18:43:17.193 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,59 MB
+2023-12-05 18:43:17.492 +01:00 [INF] Znaleziono połączenie: 91 / 200
+2023-12-05 18:43:17.492 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:17.492 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 91 / 200
+2023-12-05 18:43:17.492 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:17.766 +01:00 [INF] Znaleziono połączenie: 92 / 200
+2023-12-05 18:43:17.766 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:17.766 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 92 / 200
+2023-12-05 18:43:17.767 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.047 +01:00 [INF] Znaleziono połączenie: 93 / 200
+2023-12-05 18:43:18.047 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.047 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 93 / 200
+2023-12-05 18:43:18.047 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.322 +01:00 [INF] Znaleziono połączenie: 94 / 200
+2023-12-05 18:43:18.322 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.322 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 94 / 200
+2023-12-05 18:43:18.322 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.604 +01:00 [INF] Znaleziono połączenie: 95 / 200
+2023-12-05 18:43:18.604 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.604 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 95 / 200
+2023-12-05 18:43:18.604 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.897 +01:00 [INF] Znaleziono połączenie: 96 / 200
+2023-12-05 18:43:18.897 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:18.897 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 96 / 200
+2023-12-05 18:43:18.897 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:19.208 +01:00 [INF] Znaleziono połączenie: 97 / 200
+2023-12-05 18:43:19.208 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:19.208 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 97 / 200
+2023-12-05 18:43:19.209 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:19.484 +01:00 [INF] Znaleziono połączenie: 98 / 200
+2023-12-05 18:43:19.484 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:19.484 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 98 / 200
+2023-12-05 18:43:19.484 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:19.783 +01:00 [INF] Znaleziono połączenie: 99 / 200
+2023-12-05 18:43:19.783 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:19.783 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 99 / 200
+2023-12-05 18:43:19.783 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.073 +01:00 [INF] Znaleziono połączenie: 100 / 200
+2023-12-05 18:43:20.073 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.073 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 100 / 200
+2023-12-05 18:43:20.073 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.346 +01:00 [INF] Znaleziono połączenie: 101 / 200
+2023-12-05 18:43:20.346 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.347 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 101 / 200
+2023-12-05 18:43:20.347 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.637 +01:00 [INF] Znaleziono połączenie: 102 / 200
+2023-12-05 18:43:20.638 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.638 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 102 / 200
+2023-12-05 18:43:20.638 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.931 +01:00 [INF] Znaleziono połączenie: 103 / 200
+2023-12-05 18:43:20.931 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:20.931 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 103 / 200
+2023-12-05 18:43:20.931 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:21.199 +01:00 [INF] Znaleziono połączenie: 104 / 200
+2023-12-05 18:43:21.199 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:21.199 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 104 / 200
+2023-12-05 18:43:21.199 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:21.538 +01:00 [INF] Znaleziono połączenie: 105 / 200
+2023-12-05 18:43:21.538 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:21.538 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 105 / 200
+2023-12-05 18:43:21.538 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:21.789 +01:00 [INF] Znaleziono połączenie: 106 / 200
+2023-12-05 18:43:21.789 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:21.789 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 106 / 200
+2023-12-05 18:43:21.789 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.088 +01:00 [INF] Znaleziono połączenie: 107 / 200
+2023-12-05 18:43:22.088 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.088 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 107 / 200
+2023-12-05 18:43:22.089 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.362 +01:00 [INF] Znaleziono połączenie: 108 / 200
+2023-12-05 18:43:22.362 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.362 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 108 / 200
+2023-12-05 18:43:22.362 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.655 +01:00 [INF] Znaleziono połączenie: 109 / 200
+2023-12-05 18:43:22.655 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.655 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 109 / 200
+2023-12-05 18:43:22.655 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.940 +01:00 [INF] Znaleziono połączenie: 110 / 200
+2023-12-05 18:43:22.940 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:22.940 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 110 / 200
+2023-12-05 18:43:22.940 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:23.199 +01:00 [INF] Znaleziono połączenie: 111 / 200
+2023-12-05 18:43:23.199 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:23.199 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 111 / 200
+2023-12-05 18:43:23.199 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:23.485 +01:00 [INF] Znaleziono połączenie: 112 / 200
+2023-12-05 18:43:23.485 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:23.485 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 112 / 200
+2023-12-05 18:43:23.485 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:23.791 +01:00 [INF] Znaleziono połączenie: 113 / 200
+2023-12-05 18:43:23.792 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:23.792 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 113 / 200
+2023-12-05 18:43:23.792 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.067 +01:00 [INF] Znaleziono połączenie: 114 / 200
+2023-12-05 18:43:24.067 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.067 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 114 / 200
+2023-12-05 18:43:24.067 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.333 +01:00 [INF] Znaleziono połączenie: 115 / 200
+2023-12-05 18:43:24.333 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.333 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 115 / 200
+2023-12-05 18:43:24.333 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.639 +01:00 [INF] Znaleziono połączenie: 116 / 200
+2023-12-05 18:43:24.639 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.639 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 116 / 200
+2023-12-05 18:43:24.639 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.924 +01:00 [INF] Znaleziono połączenie: 117 / 200
+2023-12-05 18:43:24.924 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:24.924 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 117 / 200
+2023-12-05 18:43:24.925 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:25.204 +01:00 [INF] Znaleziono połączenie: 118 / 200
+2023-12-05 18:43:25.204 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:25.204 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 118 / 200
+2023-12-05 18:43:25.204 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:25.497 +01:00 [INF] Znaleziono połączenie: 119 / 200
+2023-12-05 18:43:25.497 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:25.497 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 119 / 200
+2023-12-05 18:43:25.497 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:25.773 +01:00 [INF] Znaleziono połączenie: 120 / 200
+2023-12-05 18:43:25.774 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:25.774 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 120 / 200
+2023-12-05 18:43:25.774 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.067 +01:00 [INF] Znaleziono połączenie: 121 / 200
+2023-12-05 18:43:26.067 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.067 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 121 / 200
+2023-12-05 18:43:26.067 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.350 +01:00 [INF] Znaleziono połączenie: 122 / 200
+2023-12-05 18:43:26.350 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.350 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 122 / 200
+2023-12-05 18:43:26.350 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.647 +01:00 [INF] Znaleziono połączenie: 123 / 200
+2023-12-05 18:43:26.648 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.648 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 123 / 200
+2023-12-05 18:43:26.648 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.946 +01:00 [INF] Znaleziono połączenie: 124 / 200
+2023-12-05 18:43:26.946 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:26.946 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 124 / 200
+2023-12-05 18:43:26.946 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:27.225 +01:00 [INF] Znaleziono połączenie: 125 / 200
+2023-12-05 18:43:27.225 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:27.225 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 125 / 200
+2023-12-05 18:43:27.225 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:27.505 +01:00 [INF] Znaleziono połączenie: 126 / 200
+2023-12-05 18:43:27.505 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:27.505 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 126 / 200
+2023-12-05 18:43:27.506 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:27.826 +01:00 [INF] Znaleziono połączenie: 127 / 200
+2023-12-05 18:43:27.826 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:27.826 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 127 / 200
+2023-12-05 18:43:27.827 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.112 +01:00 [INF] Znaleziono połączenie: 128 / 200
+2023-12-05 18:43:28.112 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.112 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 128 / 200
+2023-12-05 18:43:28.112 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.371 +01:00 [INF] Znaleziono połączenie: 129 / 200
+2023-12-05 18:43:28.371 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.371 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 129 / 200
+2023-12-05 18:43:28.371 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.665 +01:00 [INF] Znaleziono połączenie: 130 / 200
+2023-12-05 18:43:28.666 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.666 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 130 / 200
+2023-12-05 18:43:28.666 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.976 +01:00 [INF] Znaleziono połączenie: 131 / 200
+2023-12-05 18:43:28.976 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:28.976 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 131 / 200
+2023-12-05 18:43:28.976 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:29.249 +01:00 [INF] Znaleziono połączenie: 132 / 200
+2023-12-05 18:43:29.249 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:29.250 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 132 / 200
+2023-12-05 18:43:29.250 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:29.531 +01:00 [INF] Znaleziono połączenie: 133 / 200
+2023-12-05 18:43:29.531 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:29.531 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 133 / 200
+2023-12-05 18:43:29.531 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:29.820 +01:00 [INF] Znaleziono połączenie: 134 / 200
+2023-12-05 18:43:29.820 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:29.821 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 134 / 200
+2023-12-05 18:43:29.821 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.119 +01:00 [INF] Znaleziono połączenie: 135 / 200
+2023-12-05 18:43:30.119 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.120 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 135 / 200
+2023-12-05 18:43:30.120 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.396 +01:00 [INF] Znaleziono połączenie: 136 / 200
+2023-12-05 18:43:30.397 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.397 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 136 / 200
+2023-12-05 18:43:30.397 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.668 +01:00 [INF] Znaleziono połączenie: 137 / 200
+2023-12-05 18:43:30.668 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.668 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 137 / 200
+2023-12-05 18:43:30.668 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.970 +01:00 [INF] Znaleziono połączenie: 138 / 200
+2023-12-05 18:43:30.970 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:30.971 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 138 / 200
+2023-12-05 18:43:30.971 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:31.261 +01:00 [INF] Znaleziono połączenie: 139 / 200
+2023-12-05 18:43:31.261 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:31.261 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 139 / 200
+2023-12-05 18:43:31.261 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:31.549 +01:00 [INF] Znaleziono połączenie: 140 / 200
+2023-12-05 18:43:31.549 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:31.549 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 140 / 200
+2023-12-05 18:43:31.549 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:31.832 +01:00 [INF] Znaleziono połączenie: 141 / 200
+2023-12-05 18:43:31.832 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:31.832 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 141 / 200
+2023-12-05 18:43:31.832 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.123 +01:00 [INF] Znaleziono połączenie: 142 / 200
+2023-12-05 18:43:32.124 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.124 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 142 / 200
+2023-12-05 18:43:32.124 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.366 +01:00 [INF] Znaleziono połączenie: 143 / 200
+2023-12-05 18:43:32.366 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.366 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 143 / 200
+2023-12-05 18:43:32.366 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.653 +01:00 [INF] Znaleziono połączenie: 144 / 200
+2023-12-05 18:43:32.653 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.653 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 144 / 200
+2023-12-05 18:43:32.653 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.945 +01:00 [INF] Znaleziono połączenie: 145 / 200
+2023-12-05 18:43:32.945 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:32.945 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 145 / 200
+2023-12-05 18:43:32.945 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:33.223 +01:00 [INF] Znaleziono połączenie: 146 / 200
+2023-12-05 18:43:33.224 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:33.224 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 146 / 200
+2023-12-05 18:43:33.224 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:33.516 +01:00 [INF] Znaleziono połączenie: 147 / 200
+2023-12-05 18:43:33.516 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:33.517 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 147 / 200
+2023-12-05 18:43:33.517 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:33.780 +01:00 [INF] Znaleziono połączenie: 148 / 200
+2023-12-05 18:43:33.780 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:33.780 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 148 / 200
+2023-12-05 18:43:33.780 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.060 +01:00 [INF] Znaleziono połączenie: 149 / 200
+2023-12-05 18:43:34.060 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.060 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 149 / 200
+2023-12-05 18:43:34.061 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.343 +01:00 [INF] Znaleziono połączenie: 150 / 200
+2023-12-05 18:43:34.343 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.343 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 150 / 200
+2023-12-05 18:43:34.343 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.637 +01:00 [INF] Znaleziono połączenie: 151 / 200
+2023-12-05 18:43:34.637 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.637 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 151 / 200
+2023-12-05 18:43:34.637 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.929 +01:00 [INF] Znaleziono połączenie: 152 / 200
+2023-12-05 18:43:34.929 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:34.929 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 152 / 200
+2023-12-05 18:43:34.929 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:35.210 +01:00 [INF] Znaleziono połączenie: 153 / 200
+2023-12-05 18:43:35.211 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:35.211 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 153 / 200
+2023-12-05 18:43:35.211 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:35.493 +01:00 [INF] Znaleziono połączenie: 154 / 200
+2023-12-05 18:43:35.493 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:35.493 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 154 / 200
+2023-12-05 18:43:35.493 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:35.774 +01:00 [INF] Znaleziono połączenie: 155 / 200
+2023-12-05 18:43:35.775 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:35.775 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 155 / 200
+2023-12-05 18:43:35.775 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.072 +01:00 [INF] Znaleziono połączenie: 156 / 200
+2023-12-05 18:43:36.073 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.073 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 156 / 200
+2023-12-05 18:43:36.073 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.312 +01:00 [INF] Znaleziono połączenie: 157 / 200
+2023-12-05 18:43:36.312 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.312 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 157 / 200
+2023-12-05 18:43:36.312 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.606 +01:00 [INF] Znaleziono połączenie: 158 / 200
+2023-12-05 18:43:36.606 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.606 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 158 / 200
+2023-12-05 18:43:36.606 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.898 +01:00 [INF] Znaleziono połączenie: 159 / 200
+2023-12-05 18:43:36.898 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:36.898 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 159 / 200
+2023-12-05 18:43:36.898 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:37.161 +01:00 [INF] Znaleziono połączenie: 160 / 200
+2023-12-05 18:43:37.161 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:37.161 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 160 / 200
+2023-12-05 18:43:37.161 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:37.433 +01:00 [INF] Znaleziono połączenie: 161 / 200
+2023-12-05 18:43:37.433 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:37.433 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 161 / 200
+2023-12-05 18:43:37.433 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:37.713 +01:00 [INF] Znaleziono połączenie: 162 / 200
+2023-12-05 18:43:37.713 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:37.713 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 162 / 200
+2023-12-05 18:43:37.713 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.006 +01:00 [INF] Znaleziono połączenie: 163 / 200
+2023-12-05 18:43:38.006 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.006 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 163 / 200
+2023-12-05 18:43:38.006 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.275 +01:00 [INF] Znaleziono połączenie: 164 / 200
+2023-12-05 18:43:38.276 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.276 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 164 / 200
+2023-12-05 18:43:38.276 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.577 +01:00 [INF] Znaleziono połączenie: 165 / 200
+2023-12-05 18:43:38.577 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.577 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 165 / 200
+2023-12-05 18:43:38.577 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.879 +01:00 [INF] Znaleziono połączenie: 166 / 200
+2023-12-05 18:43:38.879 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:38.879 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 166 / 200
+2023-12-05 18:43:38.879 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.152 +01:00 [INF] Znaleziono połączenie: 167 / 200
+2023-12-05 18:43:39.152 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.152 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 167 / 200
+2023-12-05 18:43:39.153 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.397 +01:00 [INF] Znaleziono połączenie: 168 / 200
+2023-12-05 18:43:39.397 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.397 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 168 / 200
+2023-12-05 18:43:39.398 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.694 +01:00 [INF] Znaleziono połączenie: 169 / 200
+2023-12-05 18:43:39.694 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.694 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 169 / 200
+2023-12-05 18:43:39.694 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.977 +01:00 [INF] Znaleziono połączenie: 170 / 200
+2023-12-05 18:43:39.977 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:39.977 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 170 / 200
+2023-12-05 18:43:39.978 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:40.250 +01:00 [INF] Znaleziono połączenie: 171 / 200
+2023-12-05 18:43:40.251 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:40.251 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 171 / 200
+2023-12-05 18:43:40.251 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:40.531 +01:00 [INF] Znaleziono połączenie: 172 / 200
+2023-12-05 18:43:40.531 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:40.531 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 172 / 200
+2023-12-05 18:43:40.531 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:40.811 +01:00 [INF] Znaleziono połączenie: 173 / 200
+2023-12-05 18:43:40.811 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:40.811 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 173 / 200
+2023-12-05 18:43:40.812 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.114 +01:00 [INF] Znaleziono połączenie: 174 / 200
+2023-12-05 18:43:41.114 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.114 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 174 / 200
+2023-12-05 18:43:41.114 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.359 +01:00 [INF] Znaleziono połączenie: 175 / 200
+2023-12-05 18:43:41.359 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.359 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 175 / 200
+2023-12-05 18:43:41.359 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.665 +01:00 [INF] Znaleziono połączenie: 176 / 200
+2023-12-05 18:43:41.666 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.666 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 176 / 200
+2023-12-05 18:43:41.666 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.942 +01:00 [INF] Znaleziono połączenie: 177 / 200
+2023-12-05 18:43:41.943 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:41.943 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 177 / 200
+2023-12-05 18:43:41.943 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:42.221 +01:00 [INF] Znaleziono połączenie: 178 / 200
+2023-12-05 18:43:42.221 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:42.221 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 178 / 200
+2023-12-05 18:43:42.222 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:42.481 +01:00 [INF] Znaleziono połączenie: 179 / 200
+2023-12-05 18:43:42.481 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:42.481 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 179 / 200
+2023-12-05 18:43:42.482 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:42.754 +01:00 [INF] Znaleziono połączenie: 180 / 200
+2023-12-05 18:43:42.754 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:42.754 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 180 / 200
+2023-12-05 18:43:42.754 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,55 MB
+2023-12-05 18:43:43.022 +01:00 [INF] Znaleziono połączenie: 181 / 200
+2023-12-05 18:43:43.022 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.022 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 181 / 200
+2023-12-05 18:43:43.022 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.274 +01:00 [INF] Znaleziono połączenie: 182 / 200
+2023-12-05 18:43:43.275 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.275 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 182 / 200
+2023-12-05 18:43:43.275 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.576 +01:00 [INF] Znaleziono połączenie: 183 / 200
+2023-12-05 18:43:43.576 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.576 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 183 / 200
+2023-12-05 18:43:43.576 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.859 +01:00 [INF] Znaleziono połączenie: 184 / 200
+2023-12-05 18:43:43.859 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:43.859 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 184 / 200
+2023-12-05 18:43:43.860 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:44.154 +01:00 [INF] Znaleziono połączenie: 185 / 200
+2023-12-05 18:43:44.154 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:44.155 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 185 / 200
+2023-12-05 18:43:44.155 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:44.440 +01:00 [INF] Znaleziono połączenie: 186 / 200
+2023-12-05 18:43:44.440 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:44.441 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 186 / 200
+2023-12-05 18:43:44.441 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:44.725 +01:00 [INF] Znaleziono połączenie: 187 / 200
+2023-12-05 18:43:44.726 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:44.726 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 187 / 200
+2023-12-05 18:43:44.726 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.020 +01:00 [INF] Znaleziono połączenie: 188 / 200
+2023-12-05 18:43:45.021 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.021 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 188 / 200
+2023-12-05 18:43:45.021 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.333 +01:00 [INF] Znaleziono połączenie: 189 / 200
+2023-12-05 18:43:45.333 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.333 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 189 / 200
+2023-12-05 18:43:45.333 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.632 +01:00 [INF] Znaleziono połączenie: 190 / 200
+2023-12-05 18:43:45.632 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.632 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 190 / 200
+2023-12-05 18:43:45.632 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.921 +01:00 [INF] Znaleziono połączenie: 191 / 200
+2023-12-05 18:43:45.921 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:45.922 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 191 / 200
+2023-12-05 18:43:45.922 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:46.190 +01:00 [INF] Znaleziono połączenie: 192 / 200
+2023-12-05 18:43:46.190 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:46.190 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 192 / 200
+2023-12-05 18:43:46.190 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:46.449 +01:00 [INF] Znaleziono połączenie: 193 / 200
+2023-12-05 18:43:46.450 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:46.450 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 193 / 200
+2023-12-05 18:43:46.450 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:46.753 +01:00 [INF] Znaleziono połączenie: 194 / 200
+2023-12-05 18:43:46.753 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:46.753 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 194 / 200
+2023-12-05 18:43:46.754 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.104 +01:00 [INF] Znaleziono połączenie: 195 / 200
+2023-12-05 18:43:47.105 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.105 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 195 / 200
+2023-12-05 18:43:47.105 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.375 +01:00 [INF] Znaleziono połączenie: 196 / 200
+2023-12-05 18:43:47.376 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.376 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 196 / 200
+2023-12-05 18:43:47.376 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.646 +01:00 [INF] Znaleziono połączenie: 197 / 200
+2023-12-05 18:43:47.646 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.646 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 197 / 200
+2023-12-05 18:43:47.646 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.939 +01:00 [INF] Znaleziono połączenie: 198 / 200
+2023-12-05 18:43:47.939 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:47.939 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 198 / 200
+2023-12-05 18:43:47.939 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:48.204 +01:00 [INF] Znaleziono połączenie: 199 / 200
+2023-12-05 18:43:48.205 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:48.205 +01:00 [INF] Odjęto linię z orginalnego obrazu w połączeniu: 199 / 200
+2023-12-05 18:43:48.205 +01:00 [INF] Dysk: D:\, Format: NTFS, Dostępne miejsce: 128534,49 MB
+2023-12-05 18:43:48.310 +01:00 [INF] Narysowano string art
+2023-12-05 18:43:48.420 +01:00 [INF] Zakończono wykonywanie string artu

@@ -258,10 +258,18 @@ namespace STR_ART_VI.ViewModel
             }
         }
 
-        //
-        private void LoadFileAutoMode()
+        // auto mode DOKOŃCZYĆ
+        async private void LoadFileAutoMode()
         {
+            //Wczytaj plik i podziel na części
             FileContent = OpenAndReadTextFile();
+            string[] stringArray = FileContent.Split(',');
+
+            foreach (string command in stringArray)
+            {
+                await SendCommandAsync(command);
+
+            }
 
         }
 

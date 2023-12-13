@@ -8,11 +8,27 @@ using AForge.Imaging;
 using AForge.Imaging.Filters;
 using System.Drawing;
 using System.Drawing.Imaging;
+using Microsoft.Win32;
+
 
 namespace STR_ART_VI.Model
 {
     public static class ImageUtilities
     {
+        public static Bitmap CreateBitmap(int width, int height, System.Drawing.Color backgroundColor)
+        {
+            // Utwórz nową bitmapę
+            Bitmap bitmap = new Bitmap(width, height);
+
+            // Ustaw kolor tła
+            using (Graphics g = Graphics.FromImage(bitmap))
+            {
+                g.Clear(backgroundColor);
+            }
+
+            return bitmap;
+        }
+
         public static BitmapImage CreateBitmap(string imagePath)
         {
             var bitmap = new BitmapImage();
@@ -22,7 +38,28 @@ namespace STR_ART_VI.Model
 
             return bitmap;
         }
+        public static Bitmap ResizeImageBitmap(Bitmap originalImage, int newWidth, int newHeight)
+        {
+            if (originalImage == null)
+            {
+                throw new ArgumentNullException(nameof(originalImage));
+            }
 
+            if (newWidth <= 0 || newHeight <= 0)
+            {
+                throw new ArgumentException("Nowa szerokość i wysokość muszą być większe od zera.");
+            }
+
+            Bitmap resizedImage = new Bitmap(newWidth, newHeight);
+
+            using (Graphics g = Graphics.FromImage(resizedImage))
+            {
+                g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                g.DrawImage(originalImage, 0, 0, newWidth, newHeight);
+            }
+
+            return resizedImage;
+        }
         public static BitmapImage ResizeImage(BitmapImage sourceImage, int newWidth, int newHeight)
         {
             // Konwersja BitmapImage na Bitmap
@@ -735,7 +772,8 @@ namespace STR_ART_VI.Model
             // Sprawdź, czy podane współrzędne są w granicach bitmapy
             if (x1 >= 0 && x1 < maxX && y1 >= 0 && y1 < maxY && x2 >= 0 && x2 < maxX && y2 >= 0 && y2 < maxY)
             {
-
+                x2 -= 1;
+                y2 -= 1;
                 // Ustaw kolor piksela na podany kolor
                 writeableBitmap.WritePixels(new Int32Rect(x1, y1, 1, 1), new byte[] { kolor.B, kolor.G, kolor.R, kolor.A }, 4, 0);
                 listaPunktow.Add(new Punkt(x1,y1));
@@ -747,18 +785,22 @@ namespace STR_ART_VI.Model
                 listaPunktow.Add(new Punkt(x2, y1));
 
                 // Oblicz dystans pomiędzy punktami
-                int distanceBetwenNails = (y2 - y1) / (nailsCount + 1);
-
+                int distanceBetwenNailsY = (y2 - y1) / (nailsCount + 1);
+                int distanceBetwenNailsX = (x2 - x1) / (nailsCount + 1);
                 //Sprawdz czy parzysta
                 if (CzyParzysta(nailsCount))
                 {
-                    (writeableBitmap, var listaPunktow1) = RozmiescPoLini(true, y1, x1, x2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
-                    listaPunktow.AddRange(listaPunktow1);
-                    (writeableBitmap, var listaPunktow2) = RozmiescPoLini(true, y2, x1, x2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    (writeableBitmap, var listaPunktow1) = RozmiescPoLini(true, y1, x1, x2, nailsCount, writeableBitmap, distanceBetwenNailsX, kolor);
+                    listaPunktow1.Sort((p1, p2) => p1.X.CompareTo(p2.X));
+                    listaPunktow.AddRange(listaPunktow1);      
+                    (writeableBitmap, var listaPunktow2) = RozmiescPoLini(true, y2, x1, x2, nailsCount, writeableBitmap, distanceBetwenNailsX, kolor);
+                    listaPunktow2.Sort((p1, p2) => p1.X.CompareTo(p2.X));
                     listaPunktow.AddRange(listaPunktow2);
-                    (writeableBitmap, var listaPunktow3) = RozmiescPoLini(false, x1, y1, y2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    (writeableBitmap, var listaPunktow3) = RozmiescPoLini(false, x1, y1, y2, nailsCount, writeableBitmap, distanceBetwenNailsY, kolor);
+                    listaPunktow3.Sort((p1, p2) => p1.Y.CompareTo(p2.Y));
                     listaPunktow.AddRange(listaPunktow3);
-                    (writeableBitmap, var listaPunktow4) = RozmiescPoLini(false, x2, y1, y2, nailsCount, writeableBitmap, distanceBetwenNails, kolor);
+                    (writeableBitmap, var listaPunktow4) = RozmiescPoLini(false, x2, y1, y2, nailsCount, writeableBitmap, distanceBetwenNailsY, kolor);
+                    listaPunktow4.Sort((p1, p2) => p1.Y.CompareTo(p2.Y));
                     listaPunktow.AddRange(listaPunktow4);
                 }
                 else
@@ -887,7 +929,392 @@ namespace STR_ART_VI.Model
                 X = x;
                 Y = y;
             }
+            public Punkt DeepCopy()
+            {
+                return new Punkt(X, Y);
+            }
         }
+
+        public static BitmapImage OpenImage()
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Pliki obrazów (*.png; *.jpg)|*.png;*.jpg|Wszystkie pliki (*.*)|*.*";
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    // Wczytaj plik obrazu do strumienia
+                    using (FileStream stream = new FileStream(openFileDialog.FileName, FileMode.Open, FileAccess.Read))
+                    {
+                        // Utwórz obiekt BitmapImage i wczytaj do niego strumień
+                        BitmapImage bitmapImage = new BitmapImage();
+                        bitmapImage.BeginInit();
+                        bitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                        bitmapImage.StreamSource = stream;
+                        bitmapImage.EndInit();
+
+                        return bitmapImage;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Wystąpił błąd podczas otwierania pliku: {ex.Message}");
+                    return null;
+                }
+            }
+
+            return null; // Użytkownik anulował wybór pliku
+        }
+        public static Bitmap CropImageBitmap(Bitmap originalImage, int targetWidth, int targetHeight)
+        {
+            // Sprawdź, czy obraz wejściowy nie jest null
+            if (originalImage == null)
+            {
+                throw new ArgumentNullException(nameof(originalImage));
+            }
+
+            // Sprawdź, czy szerokość i wysokość są większe od 0
+            if (targetWidth <= 0 || targetHeight <= 0)
+            {
+                throw new ArgumentException("Szerokość i wysokość muszą być większe od zera.");
+            }
+
+            // Oblicz proporcje
+            double aspectRatio = (double)targetWidth / targetHeight;
+
+            // Oblicz nowe wymiary
+            int newWidth, newHeight;
+            if (originalImage.Width / aspectRatio > originalImage.Height)
+            {
+                newWidth = (int)(originalImage.Height * aspectRatio);
+                newHeight = originalImage.Height;
+            }
+            else
+            {
+                newWidth = originalImage.Width;
+                newHeight = (int)(originalImage.Width / aspectRatio);
+            }
+
+            // Oblicz pozycję do przycięcia
+            int x = (originalImage.Width - newWidth) / 2;
+            int y = (originalImage.Height - newHeight) / 2;
+
+            // Utwórz nowy obraz Bitmap z przyciętymi wymiarami
+            Bitmap croppedImage = new Bitmap(newWidth, newHeight);
+            using (Graphics g = Graphics.FromImage(croppedImage))
+            {
+                g.DrawImage(originalImage, new Rectangle(0, 0, newWidth, newHeight), new Rectangle(x, y, newWidth, newHeight), GraphicsUnit.Pixel);
+            }
+
+            return croppedImage;
+        }
+
+
+        public static BitmapImage CropImage(BitmapImage originalImage, int targetWidth, int targetHeight)
+        {
+            // Sprawdź, czy obraz wejściowy nie jest null
+            if (originalImage == null)
+            {
+                throw new ArgumentNullException(nameof(originalImage));
+            }
+
+            // Sprawdź, czy szerokość i wysokość są większe od 0
+            if (targetWidth <= 0 || targetHeight <= 0)
+            {
+                throw new ArgumentException("Szerokość i wysokość muszą być większe od zera.");
+            }
+
+            // Oblicz proporcje
+            double aspectRatio = (double)targetWidth / targetHeight;
+
+            // Sprawdź, czy obraz wejściowy ma poprawne wymiary
+            if (originalImage.PixelWidth <= 0 || originalImage.PixelHeight <= 0)
+            {
+                throw new ArgumentException("Nieprawidłowe wymiary obrazu wejściowego.");
+            }
+
+            // Oblicz nowe wymiary
+            int newWidth, newHeight;
+            if (originalImage.PixelWidth / aspectRatio > originalImage.PixelHeight)
+            {
+                newWidth = (int)(originalImage.PixelHeight * aspectRatio);
+                newHeight = originalImage.PixelHeight;
+            }
+            else
+            {
+                newWidth = originalImage.PixelWidth;
+                newHeight = (int)(originalImage.PixelWidth / aspectRatio);
+            }
+
+            // Oblicz pozycję do przycięcia
+            int x = (originalImage.PixelWidth - newWidth) / 2;
+            int y = (originalImage.PixelHeight - newHeight) / 2;
+
+            // Utwórz CroppedBitmap
+            CroppedBitmap croppedBitmap = new CroppedBitmap(originalImage, new System.Windows.Int32Rect(x, y, newWidth, newHeight));
+
+            // Konwertuj CroppedBitmap do strumienia
+            MemoryStream stream = new MemoryStream();
+            PngBitmapEncoder encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(croppedBitmap));
+            encoder.Save(stream);
+
+            // Utwórz nowy BitmapImage z przyciętym obrazem
+            BitmapImage croppedImage = new BitmapImage();
+            croppedImage.BeginInit();
+            croppedImage.StreamSource = stream;
+            croppedImage.CacheOption = BitmapCacheOption.OnLoad;
+            croppedImage.EndInit();
+            croppedImage.Freeze();
+
+            return croppedImage;
+        }
+
+        public static MemoryStream ConvertBitmapToMemoryStream(BitmapSource bitmap)
+        {
+            MemoryStream stream = new MemoryStream();
+            BitmapEncoder encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(bitmap));
+            encoder.Save(stream);
+            return stream;
+        }
+
+        public static (int, int) CalculateAreaSize(int x1, int x2, int y1, int y2)
+        {
+            int width = 0;
+            int height = 0;
+
+            if (x1 > x2)
+                width = x1 - x2;
+            else
+                width = x2 - x1;
+            
+            if (y1 > y2)
+                height = y1 - y2;
+            else
+                height = y2 - y1;
+
+            return (width, height);
+        }
+
+        public static List<Punkt> OffsetPoints(List<Punkt> points, int offsetX, int offsetY)
+        {
+            List<Punkt> modifiedPoints = new List<Punkt>();
+
+            foreach (var point in points)
+            {
+                int modifiedX = (int)point.X - offsetX;
+                int modifiedY = (int)point.Y - offsetY;
+
+                modifiedPoints.Add(new Punkt(modifiedX, modifiedY));
+            }
+
+            return modifiedPoints;
+        }
+
+        public static BitmapImage ConvertToGrayScale(BitmapImage originalImage)
+        {
+            int width = originalImage.PixelWidth;
+            int height = originalImage.PixelHeight;
+
+            // Tworzenie WriteableBitmap na podstawie oryginalnego obrazu
+            WriteableBitmap writeableBitmap = new WriteableBitmap(originalImage);
+
+            // Pozyskiwanie pikseli
+            int bytesPerPixel = (writeableBitmap.Format.BitsPerPixel + 7) / 8;
+            int stride = width * bytesPerPixel;
+            byte[] pixelData = new byte[height * stride];
+            writeableBitmap.CopyPixels(pixelData, stride, 0);
+
+            // Konwersja do skali szarości
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    int index = y * stride + x * bytesPerPixel;
+
+                    byte blue = pixelData[index];
+                    byte green = pixelData[index + 1];
+                    byte red = pixelData[index + 2];
+
+                    // Obliczanie wartości skali szarości
+                    byte gray = (byte)(0.299 * red + 0.587 * green + 0.114 * blue);
+
+                    // Ustawianie wartości skali szarości dla każdego kanału
+                    pixelData[index] = gray;
+                    pixelData[index + 1] = gray;
+                    pixelData[index + 2] = gray;
+                }
+            }
+
+            // Tworzenie nowego obrazu w skali szarości
+            WriteableBitmap grayBitmap = new WriteableBitmap(width, height, originalImage.DpiX, originalImage.DpiY, PixelFormats.Bgr32, null);
+
+            grayBitmap.WritePixels(new System.Windows.Int32Rect(0, 0, width, height), pixelData, stride, 0);
+
+            // Konwersja WriteableBitmap do BitmapImage
+            MemoryStream memoryStream = new MemoryStream();
+            BmpBitmapEncoder encoder = new BmpBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(grayBitmap));
+            encoder.Save(memoryStream);
+
+            BitmapImage grayImage = new BitmapImage();
+            grayImage.BeginInit();
+            grayImage.StreamSource = new MemoryStream(memoryStream.ToArray());
+            grayImage.EndInit();
+
+            return grayImage;
+        }
+        public static BitmapImage RotateImage(BitmapImage originalImage, double angle)
+        {
+            // Tworzenie obiektu TransformedBitmap, który obraca obraz o zadany kąt
+            TransformedBitmap rotatedBitmap = new TransformedBitmap(originalImage, new RotateTransform(angle));
+
+            // Tworzenie nowego BitmapImage z obiektu TransformedBitmap
+            MemoryStream memoryStream = new MemoryStream();
+            BmpBitmapEncoder encoder = new BmpBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(rotatedBitmap));
+            encoder.Save(memoryStream);
+
+            BitmapImage rotatedImage = new BitmapImage();
+            rotatedImage.BeginInit();
+            rotatedImage.StreamSource = new MemoryStream(memoryStream.ToArray());
+            rotatedImage.EndInit();
+
+            return rotatedImage;
+        }
+
+        public static double CalculateAverageBrightness(BitmapImage bitmap, int x1, int y1, int x2, int y2, int plyWidth, int plyHeight, int step)
+        {
+            int width = plyWidth;
+            int height = plyHeight;
+
+            int stride = (width * bitmap.Format.BitsPerPixel + 7) / 8;
+            byte[] pixels = new byte[height * stride];
+            bitmap.CopyPixels(new Int32Rect(0, 0, width, height), pixels, stride, 0);
+
+            int totalBrightness = 0;
+            int pixelCount = 0;
+
+            double m = (double)(y2 - y1) / (x2 - x1);
+            double b = y1 - m * x1;
+
+            for (int x = Math.Min(x1, x2); x <= Math.Max(x1, x2); x += step)
+            {
+                int y = (int)(m * x + b);
+
+                if (x >= 0 && x < width && y >= 0 && y < height)
+                {
+                    int pixelIndex = y * stride + x * 4;
+                    int brightness = (pixels[pixelIndex] + pixels[pixelIndex + 1] + pixels[pixelIndex + 2]) / 3;
+
+                    totalBrightness += brightness;
+                    pixelCount++;
+                }
+            }
+
+            double averageBrightness = (double)totalBrightness / pixelCount;
+            return averageBrightness;
+        }
+        /*
+        public static BitmapImage DrawLine(BitmapImage originalImage, int x1, int y1, int x2, int y2, System.Windows.Media.Color lineColor, double lineOpacity)
+        {
+            // Konwersja BitmapImage do RenderTargetBitmap
+            RenderTargetBitmap renderTargetBitmap = new RenderTargetBitmap(originalImage.PixelWidth, originalImage.PixelHeight, 96, 96, PixelFormats.Pbgra32);
+
+            DrawingVisual drawingVisual = new DrawingVisual();
+
+            // Uzyskaj DrawingContext do rysowania
+            using (DrawingContext drawingContext = drawingVisual.RenderOpen())
+            {
+                // Skopiuj oryginalny obraz do DrawingVisual, aby zachować tło
+                drawingContext.DrawImage(originalImage, new Rect(0, 0, originalImage.PixelWidth, originalImage.PixelHeight));
+
+                // Utwórz obiekt Brush z podanym kolorem i przezroczystością
+                SolidColorBrush brush = new SolidColorBrush(lineColor);
+                brush.Opacity = lineOpacity;
+
+                // Narysuj linię
+                drawingContext.DrawLine(new System.Windows.Media.Pen(brush, 1), new System.Windows.Point(x1, y1), new System.Windows.Point(x2, y2));
+            }
+
+            // Renderuj DrawingVisual na RenderTargetBitmap
+            renderTargetBitmap.Render(drawingVisual);
+
+            // Konwersja RenderTargetBitmap do BitmapImage
+            BitmapImage resultImage = ConvertToBitmapImage(renderTargetBitmap);
+
+            return resultImage;
+        }
+        */
+        
+        
+
+        public static BitmapImage DrawLines(BitmapImage originalImage,List<ImageUtilities.Punkt> gwozdzie, System.Windows.Media.Color lineColor, double lineOpacity, int[] kolejnePolaczenia)
+        {
+            int x1 = 0;
+            int y1 = 0;
+            int x2 = 0;
+            int y2 = 0;
+            // Konwersja BitmapImage do RenderTargetBitmap
+            RenderTargetBitmap renderTargetBitmap = new RenderTargetBitmap(originalImage.PixelWidth, originalImage.PixelHeight, 96, 96, PixelFormats.Pbgra32);
+
+            DrawingVisual drawingVisual = new DrawingVisual();
+
+            // Uzyskaj DrawingContext do rysowania
+            using (DrawingContext drawingContext = drawingVisual.RenderOpen())
+            {
+                // Skopiuj oryginalny obraz do DrawingVisual, aby zachować tło
+                drawingContext.DrawImage(originalImage, new Rect(0, 0, originalImage.PixelWidth, originalImage.PixelHeight));
+
+                // Utwórz obiekt Brush z podanym kolorem i przezroczystością
+                SolidColorBrush brush = new SolidColorBrush(lineColor);
+                brush.Opacity = lineOpacity;
+                for (int i = 1; i < kolejnePolaczenia.Length; i++)
+                {
+                    int pkt1 = kolejnePolaczenia[i-1];
+                    int pkt2 = kolejnePolaczenia[i];
+
+
+                    x1 = (int)gwozdzie[pkt1].X;
+                    y1 = (int)gwozdzie[pkt1].Y;
+                    x2 = (int)gwozdzie[pkt2].X;
+                    y2 = (int)gwozdzie[pkt2].Y;
+
+                    // Narysuj linię
+                    drawingContext.DrawLine(new System.Windows.Media.Pen(brush, 1), new System.Windows.Point(x1, y1), new System.Windows.Point(x2, y2));
+                }
+            }
+
+            // Renderuj DrawingVisual na RenderTargetBitmap
+            renderTargetBitmap.Render(drawingVisual);
+
+            // Konwersja RenderTargetBitmap do BitmapImage
+            BitmapImage resultImage = ConvertToBitmapImage(renderTargetBitmap);
+
+            return resultImage;
+        }
+
+        private static BitmapImage ConvertToBitmapImage(RenderTargetBitmap renderTargetBitmap)
+        {
+            PngBitmapEncoder encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(renderTargetBitmap));
+
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                encoder.Save(memoryStream);
+                BitmapImage resultImage = new BitmapImage();
+                resultImage.BeginInit();
+                resultImage.CacheOption = BitmapCacheOption.OnLoad;
+                resultImage.StreamSource = new MemoryStream(memoryStream.ToArray());
+                resultImage.EndInit();
+                resultImage.Freeze(); // Freezing the image for improved performance
+                return resultImage;
+            }
+        }
+
+
     }
 }
 

@@ -163,6 +163,27 @@
                         Padding="3"
                         Height="30"
                         Command="{Binding NailsFileSaveCommand}"/>
+                <Label
+                   Content="Open image:"
+                   Foreground="white"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"/>
+                <Button Content="Open"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding OpenImageCommand}"/>
+                <Button Content="Change view"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding ChangeViewCommand}"/>
+                <Button Content="Test macierze"
+                        Margin="0,10,0,10" 
+                        Padding="3"
+                        Height="30"
+                        Command="{Binding MatrixTestCommand}"/>
+
             </StackPanel>
         </Border>
 

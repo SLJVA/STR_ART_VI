@@ -152,6 +152,37 @@ namespace STR_ART_VI.Model
             }
         }
 
+        public static string OpenAndReadTextFile()
+        {
+            string filePath = GetFilePath();
 
+            if (filePath != null)
+            {
+                try
+                {
+                    string fileContent = File.ReadAllText(filePath);
+                    return fileContent;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Wystąpił błąd podczas odczytu pliku: {ex.Message}");
+                }
+            }
+
+            return null;
+        }
+
+        public static string GetFilePath()
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Pliki tekstowe (*.txt)|*.txt|Wszystkie pliki (*.*)|*.*";
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                return openFileDialog.FileName;
+            }
+
+            return null;
+        }
     }
 }

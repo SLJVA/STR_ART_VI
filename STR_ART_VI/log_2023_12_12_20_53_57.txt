@@ -1,0 +1,2219 @@
+2023-12-12 20:53:57.858 +01:00 [INF] Aplikacja została uruchomiona.
+2023-12-12 20:54:03.972 +01:00 [INF] Obliczono dystans pomiędzy punktami na szerokości double: 1 i int 1
+2023-12-12 20:54:03.975 +01:00 [INF] Point: (0, 0), Exclusions: []
+2023-12-12 20:54:03.975 +01:00 [INF] Point: (5, 0), Exclusions: []
+2023-12-12 20:54:03.975 +01:00 [INF] Point: (0, 5), Exclusions: []
+2023-12-12 20:54:03.976 +01:00 [INF] Point: (5, 5), Exclusions: []
+2023-12-12 20:54:03.976 +01:00 [INF] Point: (0, 0), Exclusions: []
+2023-12-12 20:54:03.976 +01:00 [INF] Point: (5, 0), Exclusions: []
+2023-12-12 20:54:03.976 +01:00 [INF] Point: (0, 5), Exclusions: []
+2023-12-12 20:54:03.977 +01:00 [INF] Point: (5, 5), Exclusions: []
+2023-12-12 20:54:03.977 +01:00 [INF] Point: (0, 0), Exclusions: []
+2023-12-12 20:54:03.977 +01:00 [INF] Point: (0, 5), Exclusions: []
+2023-12-12 20:54:03.977 +01:00 [INF] Point: (5, 0), Exclusions: []
+2023-12-12 20:54:03.977 +01:00 [INF] Point: (5, 5), Exclusions: []
+2023-12-12 20:54:06.002 +01:00 [INF] Odczytano rozmiar orginalnego obrazu: 5, 5.
+2023-12-12 20:54:06.012 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.012 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 1
+2023-12-12 20:54:06.018 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 0 
+2023-12-12 20:54:06.018 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 0 
+2023-12-12 20:54:06.018 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 0 
+2023-12-12 20:54:06.018 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 0 
+2023-12-12 20:54:06.018 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 0 
+2023-12-12 20:54:06.018 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.019 +01:00 [INF] Tablica puntków dla połączenia z indeksem 1: 255 
+2023-12-12 20:54:06.020 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 2
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.021 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.022 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.023 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.023 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.023 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.023 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.023 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 3
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.024 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.025 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.025 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 4
+2023-12-12 20:54:06.026 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.026 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.026 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.027 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.028 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.028 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.028 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.028 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 5
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.029 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.030 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 6
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.032 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.033 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 7
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.034 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.035 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.035 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 8
+2023-12-12 20:54:06.036 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.036 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.036 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.037 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.038 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 9
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.039 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.040 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 10
+2023-12-12 20:54:06.041 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.041 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.042 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.043 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 11
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.044 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.045 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.046 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.046 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.046 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.046 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.046 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.046 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.046 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.046 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.047 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.047 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.047 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.047 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.047 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.047 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.047 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.047 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.047 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.049 +01:00 [INF] Zawartość macierzy A:
+2023-12-12 20:54:06.050 +01:00 [INF] 0 
+2023-12-12 20:54:06.050 +01:00 [INF] 0 
+2023-12-12 20:54:06.050 +01:00 [INF] 0 
+2023-12-12 20:54:06.050 +01:00 [INF] 0 
+2023-12-12 20:54:06.050 +01:00 [INF] 0 
+2023-12-12 20:54:06.050 +01:00 [INF] 255 
+2023-12-12 20:54:06.050 +01:00 [INF] 255 
+2023-12-12 20:54:06.050 +01:00 [INF] 255 
+2023-12-12 20:54:06.050 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 0 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.051 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 0 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 0 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 0 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 0 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.052 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 0 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 0 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 0 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.053 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 0 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 0 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.054 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.055 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 0 
+2023-12-12 20:54:06.056 +01:00 [INF] 0 
+2023-12-12 20:54:06.056 +01:00 [INF] 0 
+2023-12-12 20:54:06.056 +01:00 [INF] 0 
+2023-12-12 20:54:06.056 +01:00 [INF] 0 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.056 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 0 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 0 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 255 
+2023-12-12 20:54:06.057 +01:00 [INF] 0 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 0 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 0 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 0 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.058 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 0 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 0 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 0 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.059 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 0 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.060 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 0 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 0 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 0 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.061 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 0 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.062 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 0 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.063 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 0 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 0 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 0 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 255 
+2023-12-12 20:54:06.064 +01:00 [INF] 0 
+2023-12-12 20:54:06.084 +01:00 [INF] Macierz (A * A^T) jest osobliwa, nie ma odwrotności.
+2023-12-12 20:54:06.092 +01:00 [INF] Wynik: DenseVector 11-Double
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+2023-12-12 20:54:06.092 +01:00 [INF] Znaleziono największą wartość w wektorze X: NaN o indeksie: 0
+2023-12-12 20:54:06.093 +01:00 [INF] Współrzędne punktu początkowego znalezionego połączenia X: 0, Y: 0, końcowego X: 5, Y: 0
+2023-12-12 20:54:06.095 +01:00 [INF] Nowy lastPointIndex: 1
+2023-12-12 20:54:06.095 +01:00 [INF] Dopisano do punktu o indeksie: 0 nowy wykluczony punkt o indeksie: 1
+2023-12-12 20:54:06.095 +01:00 [INF] Dopisano do punktu o indeksie: 1 nowy wykluczony punkt o indeksie: 0
+2023-12-12 20:54:06.095 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.095 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.095 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 2
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.097 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 0 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tablica puntków dla połączenia z indeksem 2: 255 
+2023-12-12 20:54:06.098 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 3
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.099 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.100 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 4
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.101 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.102 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.103 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.103 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 5
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.104 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.105 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 6
+2023-12-12 20:54:06.106 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.106 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.106 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.107 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.108 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 7
+2023-12-12 20:54:06.109 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.109 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.110 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.111 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 8
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.112 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.113 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 9
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.115 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.116 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.116 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.116 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.116 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.116 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.116 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 10
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.117 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.118 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 1a punktem o indeksie: 11
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.119 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.120 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.120 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.120 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.120 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.120 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.120 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.120 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.120 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.120 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.121 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.121 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.121 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.121 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.121 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.121 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.121 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.121 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.121 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.121 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.121 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.121 +01:00 [INF] Zawartość macierzy A:
+2023-12-12 20:54:06.121 +01:00 [INF] 255 
+2023-12-12 20:54:06.121 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 0 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 0 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 255 
+2023-12-12 20:54:06.122 +01:00 [INF] 0 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 0 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.123 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.124 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 0 
+2023-12-12 20:54:06.125 +01:00 [INF] 0 
+2023-12-12 20:54:06.125 +01:00 [INF] 0 
+2023-12-12 20:54:06.125 +01:00 [INF] 0 
+2023-12-12 20:54:06.125 +01:00 [INF] 0 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.125 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.126 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.127 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 0 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 0 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 0 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 0 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.128 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.129 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 0 
+2023-12-12 20:54:06.130 +01:00 [INF] 0 
+2023-12-12 20:54:06.130 +01:00 [INF] 0 
+2023-12-12 20:54:06.130 +01:00 [INF] 0 
+2023-12-12 20:54:06.130 +01:00 [INF] 0 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.130 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 0 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.131 +01:00 [INF] 0 
+2023-12-12 20:54:06.131 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 0 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 0 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.132 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.133 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.134 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] 255 
+2023-12-12 20:54:06.135 +01:00 [INF] Macierz (A * A^T) jest osobliwa, nie ma odwrotności.
+2023-12-12 20:54:06.135 +01:00 [INF] Wynik: DenseVector 10-Double
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+2023-12-12 20:54:06.136 +01:00 [INF] Znaleziono największą wartość w wektorze X: NaN o indeksie: 0
+2023-12-12 20:54:06.136 +01:00 [INF] Współrzędne punktu początkowego znalezionego połączenia X: 5, Y: 0, końcowego X: 0, Y: 5
+2023-12-12 20:54:06.137 +01:00 [INF] Nowy lastPointIndex: 2
+2023-12-12 20:54:06.137 +01:00 [INF] Dopisano do punktu o indeksie: 1 nowy wykluczony punkt o indeksie: 2
+2023-12-12 20:54:06.137 +01:00 [INF] Dopisano do punktu o indeksie: 2 nowy wykluczony punkt o indeksie: 1
+2023-12-12 20:54:06.137 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 0
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 0 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 0 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 0 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.138 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 0 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 0 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Tablica puntków dla połączenia z indeksem 0: 255 
+2023-12-12 20:54:06.139 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.139 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.139 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 3
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.140 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.141 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 4
+2023-12-12 20:54:06.142 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.142 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.142 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.142 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 0 
+2023-12-12 20:54:06.143 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.144 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.144 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.144 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.144 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 5
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.145 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.146 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 6
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.147 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.148 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 7
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.150 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.151 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 8
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.152 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 0 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.153 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 9
+2023-12-12 20:54:06.154 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.154 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.154 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.155 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.156 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 10
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.157 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.158 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 2a punktem o indeksie: 11
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.159 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.160 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.160 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.160 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.160 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.160 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.160 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.160 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.161 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.161 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.161 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.161 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.161 +01:00 [INF] Zawartość macierzy A:
+2023-12-12 20:54:06.162 +01:00 [INF] 0 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 0 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 0 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 0 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.162 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 0 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.163 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 0 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 0 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 255 
+2023-12-12 20:54:06.164 +01:00 [INF] 0 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 0 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 0 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.165 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 0 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 0 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 0 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.166 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 0 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.167 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.168 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 0 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 255 
+2023-12-12 20:54:06.169 +01:00 [INF] 0 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 0 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 0 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.170 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 0 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.171 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.172 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 0 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 0 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 0 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 255 
+2023-12-12 20:54:06.173 +01:00 [INF] 0 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.174 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] 255 
+2023-12-12 20:54:06.175 +01:00 [INF] Macierz (A * A^T) jest osobliwa, nie ma odwrotności.
+2023-12-12 20:54:06.175 +01:00 [INF] Wynik: DenseVector 10-Double
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+2023-12-12 20:54:06.176 +01:00 [INF] Znaleziono największą wartość w wektorze X: NaN o indeksie: 0
+2023-12-12 20:54:06.176 +01:00 [INF] Współrzędne punktu początkowego znalezionego połączenia X: 0, Y: 5, końcowego X: 0, Y: 0
+2023-12-12 20:54:06.177 +01:00 [INF] Nowy lastPointIndex: 0
+2023-12-12 20:54:06.177 +01:00 [INF] Dopisano do punktu o indeksie: 2 nowy wykluczony punkt o indeksie: 0
+2023-12-12 20:54:06.177 +01:00 [INF] Dopisano do punktu o indeksie: 0 nowy wykluczony punkt o indeksie: 2
+2023-12-12 20:54:06.177 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.177 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.177 +01:00 [INF] Punkt należy do tablicy excludedPoints
+2023-12-12 20:54:06.177 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 3
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.178 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 255 
+2023-12-12 20:54:06.179 +01:00 [INF] Tablica puntków dla połączenia z indeksem 3: 0 
+2023-12-12 20:54:06.179 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 4
+2023-12-12 20:54:06.180 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.180 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.180 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.181 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.182 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.182 +01:00 [INF] Tablica puntków dla połączenia z indeksem 4: 255 
+2023-12-12 20:54:06.182 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 5
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 0 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.183 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tablica puntków dla połączenia z indeksem 5: 255 
+2023-12-12 20:54:06.184 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 6
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.185 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 0 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tablica puntków dla połączenia z indeksem 6: 255 
+2023-12-12 20:54:06.186 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 7
+2023-12-12 20:54:06.187 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.187 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.187 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.187 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.188 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.189 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 255 
+2023-12-12 20:54:06.189 +01:00 [INF] Tablica puntków dla połączenia z indeksem 7: 0 
+2023-12-12 20:54:06.189 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 8
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.190 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.191 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.191 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.191 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.191 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.191 +01:00 [INF] Tablica puntków dla połączenia z indeksem 8: 255 
+2023-12-12 20:54:06.191 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 9
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.192 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 0 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tablica puntków dla połączenia z indeksem 9: 255 
+2023-12-12 20:54:06.193 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 10
+2023-12-12 20:54:06.194 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.194 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.194 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.194 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.194 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 0 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.195 +01:00 [INF] Tablica puntków dla połączenia z indeksem 10: 255 
+2023-12-12 20:54:06.196 +01:00 [INF] Tworzenie połączenia pomiędzy punktem o indeksie: 0a punktem o indeksie: 11
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.197 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 255 
+2023-12-12 20:54:06.198 +01:00 [INF] Tablica puntków dla połączenia z indeksem 11: 0 
+2023-12-12 20:54:06.198 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.198 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.198 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.198 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.198 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.198 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.198 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.198 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.198 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.198 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.199 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.199 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.199 +01:00 [INF] End Point X: 0
+2023-12-12 20:54:06.199 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.199 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.199 +01:00 [INF] End Point Y: 0
+2023-12-12 20:54:06.199 +01:00 [INF] End Point X: 5
+2023-12-12 20:54:06.199 +01:00 [INF] End Point Y: 5
+2023-12-12 20:54:06.199 +01:00 [INF] Zawartość macierzy A:
+2023-12-12 20:54:06.199 +01:00 [INF] 0 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 0 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.199 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 0 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 0 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 0 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.200 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 255 
+2023-12-12 20:54:06.201 +01:00 [INF] 0 
+2023-12-12 20:54:06.202 +01:00 [INF] 0 
+2023-12-12 20:54:06.202 +01:00 [INF] 0 
+2023-12-12 20:54:06.202 +01:00 [INF] 0 
+2023-12-12 20:54:06.202 +01:00 [INF] 0 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.202 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 0 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 0 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 0 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.203 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 0 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 0 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 0 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 0 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.204 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 0 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 0 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 0 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.205 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.206 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 0 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 0 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 0 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 0 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.207 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 0 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 0 
+2023-12-12 20:54:06.208 +01:00 [INF] 0 
+2023-12-12 20:54:06.208 +01:00 [INF] 0 
+2023-12-12 20:54:06.208 +01:00 [INF] 0 
+2023-12-12 20:54:06.208 +01:00 [INF] 0 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.208 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 0 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 0 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.209 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 0 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 0 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 255 
+2023-12-12 20:54:06.210 +01:00 [INF] 0 
+2023-12-12 20:54:06.210 +01:00 [INF] Macierz (A * A^T) jest osobliwa, nie ma odwrotności.
+2023-12-12 20:54:06.210 +01:00 [INF] Wynik: DenseVector 9-Double
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+2023-12-12 20:54:06.210 +01:00 [INF] Znaleziono największą wartość w wektorze X: NaN o indeksie: 0
+2023-12-12 20:54:06.210 +01:00 [INF] Współrzędne punktu początkowego znalezionego połączenia X: 0, Y: 0, końcowego X: 5, Y: 5
+2023-12-12 20:54:06.211 +01:00 [INF] Nowy lastPointIndex: 3
+2023-12-12 20:54:06.212 +01:00 [INF] Dopisano do punktu o indeksie: 0 nowy wykluczony punkt o indeksie: 3
+2023-12-12 20:54:06.212 +01:00 [INF] Dopisano do punktu o indeksie: 3 nowy wykluczony punkt o indeksie: 0
